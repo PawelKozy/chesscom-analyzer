@@ -127,17 +127,37 @@ class GameAnalyzer:
 
     def find_common_mistakes(self, limit_eval_drop: float = 1.5, max_games: int = None, verbose: bool = False):
         """
-        Uses Stockfish to identify significant evaluation drops after your move (blunders/inaccuracies).
-        Prints the worst eval drops and most repeated mistakes (by SAN or FEN).
+        Identifies blunders/inaccuracies with Stockfish and displays human-readable descriptions and eval interpretation.
         """
         print("\n❌ Common blunders or inaccuracies:")
 
         all_mistakes = []
         mistake_moves = Counter()
-
         files = self._load_pgn_files()
         if max_games:
             files = files[:max_games]
+
+        piece_names = {
+            "P": "Pawn", "N": "Knight", "B": "Bishop", "R": "Rook", "Q": "Queen", "K": "King"
+        }
+
+        def describe_move(move_san):
+            if move_san in ["O-O", "O-O-O"]:
+                return "Castles kingside" if move_san == "O-O" else "Castles queenside"
+            piece = "Pawn"
+            dest = move_san[-2:]
+            if move_san[0].isupper() and move_san[0] in piece_names:
+                piece = piece_names[move_san[0]]
+            return f"{piece} to {dest}"
+
+        def format_eval(eval_score):
+            if eval_score is None:
+                return "?"
+            if eval_score >= 9000:
+                return "#Mate for White"
+            if eval_score <= -9000:
+                return "#Mate for Black"
+            return f"{eval_score / 100:.2f}"
 
         for i, file in enumerate(files, 1):
             if verbose:
@@ -152,7 +172,6 @@ class GameAnalyzer:
             board = game.board()
             node = game
             move_number = 0
-
             headers = game.headers
             white = headers.get("White", "Unknown")
             black = headers.get("Black", "Unknown")
@@ -163,7 +182,7 @@ class GameAnalyzer:
                 move = node.variation(0)
                 move_number += 1
 
-                if board.turn == chess.WHITE:  # Change this to BLACK if you play Black
+                if board.turn == chess.WHITE:  # Change if you play Black
                     try:
                         info_before = self.engine.analyse(board, chess.engine.Limit(depth=12))
                         eval_before = info_before["score"].relative.score(mate_score=10000)
@@ -177,8 +196,10 @@ class GameAnalyzer:
                 try:
                     board_before = move.parent.board()
                     san = board_before.san(move.move)
+                    description = describe_move(san)
                 except Exception:
                     san = "?"
+                    description = "Unrecognized move"
 
                 board.push(move.move)
 
@@ -194,6 +215,7 @@ class GameAnalyzer:
                         all_mistakes.append({
                             "move_number": move_number,
                             "move_san": san,
+                            "description": description,
                             "eval_drop": eval_drop,
                             "eval_before": eval_before,
                             "eval_after": eval_after,
@@ -205,7 +227,6 @@ class GameAnalyzer:
                             "black_elo": black_elo
                         })
                         mistake_moves[san] += 1
-
                 node = move
 
         if not all_mistakes:
@@ -215,12 +236,12 @@ class GameAnalyzer:
         top_blunders = sorted(all_mistakes, key=lambda x: x["eval_drop"], reverse=True)[:5]
 
         print("\n🔻 Top evaluation drops:")
-        for i, mistake in enumerate(top_blunders, 1):
+        for i, m in enumerate(top_blunders, 1):
+            print(f"{i}. {m['move_san']} → {m['description']}")
             print(
-                f"{i}. {mistake['move_san']} → Eval dropped from {mistake['eval_before']} to {mistake['eval_after']} (Δ -{mistake['eval_drop']:.1f})")
-            print(
-                f"   📁 Game: {mistake['file']} | {mistake['white']} ({mistake['white_elo']}) vs {mistake['black']} ({mistake['black_elo']})")
-            print(f"   📍 FEN: {mistake['fen']}")
+                f"   Eval dropped from {format_eval(m['eval_before'])} to {format_eval(m['eval_after'])} (Δ -{m['eval_drop']:.1f})")
+            print(f"   📁 Game: {m['file']} | {m['white']} ({m['white_elo']}) vs {m['black']} ({m['black_elo']})")
+            print(f"   📍 FEN: {m['fen']}")
             print("-" * 60)
 
         print("\n♻️ Most frequently repeated mistakes (by move SAN):")
