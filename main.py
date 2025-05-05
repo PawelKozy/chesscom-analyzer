@@ -39,6 +39,8 @@ def main():
     analyzer.find_time_consuming_positions(top_n=5, max_games=157, verbose=True)
     analyzer.find_common_mistakes(limit_eval_drop=1.5, max_games=157, verbose=True)
     analyzer.analyze_opening_issues()
+    analyzer.summarize_total_time_played()
+    analyzer.analyze_progress_over_time(limit_eval_drop=1.5, max_games=157)
 
     analyzer.close()
 

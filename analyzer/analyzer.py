@@ -1,5 +1,6 @@
 import os
 import chess
+import re
 import chess.pgn
 import chess.engine
 from typing import List
@@ -282,6 +283,136 @@ class GameAnalyzer:
 
         for i, (fen, count) in enumerate(issues.most_common(5), 1):
             print(f"{i}. Eval drop in opening ({count} times): {fen}")
+
+    def summarize_total_time_played(self, max_games: int = None):
+        """
+        Sums total time (in minutes) spent playing games based on clock comments.
+        """
+        print("\n⏳ Total Time Spent Playing:")
+        import re
+
+        files = self._load_pgn_files()
+        if max_games:
+            files = files[:max_games]
+
+        total_seconds = 0
+        for file in files:
+            with open(file, encoding="utf-8") as f:
+                game = chess.pgn.read_game(f)
+            if not game:
+                continue
+
+            previous_time = None
+            for node in game.mainline():
+                comment = node.comment
+                if "%clk" in comment:
+                    match = re.search(r"%clk\s+(\d+):(\d+)(?:\.(\d+))?", comment)
+                    if match:
+                        minutes = int(match.group(1))
+                        seconds = int(match.group(2))
+                        current_time = minutes * 60 + seconds
+                        if previous_time and current_time < previous_time:
+                            total_seconds += previous_time - current_time
+                        previous_time = current_time
+
+        total_minutes = total_seconds // 60
+        hours = total_minutes // 60
+        minutes = total_minutes % 60
+        print(f"🕰 Estimated total clocked time: {hours}h {minutes}m")
+
+    def analyze_progress_over_time(self, limit_eval_drop: float = 1.5, max_games: int = None):
+        """
+        Analyzes progress over time, grouping by game date.
+        Skips illegal moves and filters mate evals. Normalizes evals to pawns.
+        """
+        print("\n📊 Regression Analysis: Progress Over Time")
+        from collections import defaultdict
+        import datetime
+
+        files = self._load_pgn_files()
+        if max_games:
+            files = files[:max_games]
+
+        daily_stats = defaultdict(lambda: {"games": 0, "blunders": 0, "total_eval_drop": 0.0})
+
+        for file in files:
+            with open(file, encoding="utf-8") as f:
+                game = chess.pgn.read_game(f)
+
+            if not game:
+                continue
+
+            date_str = game.headers.get("Date", "????.??.??")
+            try:
+                date_obj = datetime.datetime.strptime(date_str, "%Y.%m.%d").date()
+            except ValueError:
+                continue
+
+            board = game.board()
+            node = game
+            game_blunders = 0
+            game_eval_drop = 0.0
+
+            while node.variations:
+                move = node.variation(0)
+
+                if board.turn == chess.WHITE:
+                    try:
+                        info_before = self.engine.analyse(board, chess.engine.Limit(depth=12))
+                        eval_before = info_before["score"].relative.score(mate_score=10000)
+                    except Exception:
+                        break
+                else:
+                    if move.move in board.legal_moves:
+                        board.push(move.move)
+                    node = move
+                    continue
+
+                try:
+                    board_before = move.parent.board()
+                except Exception:
+                    board_before = board.copy()
+
+                if move.move in board.legal_moves:
+                    board.push(move.move)
+                else:
+                    print(f"⚠️ Skipping illegal move {move.move} in {file}")
+                    break
+
+                try:
+                    info_after = self.engine.analyse(board, chess.engine.Limit(depth=12))
+                    eval_after = info_after["score"].relative.score(mate_score=10000)
+                except Exception:
+                    continue
+
+                if abs(eval_before) >= 9000 or abs(eval_after) >= 9000:
+                    continue
+
+                drop = eval_before - eval_after
+                if drop > limit_eval_drop * 100:
+                    drop = min(drop, 1000)
+                    game_blunders += 1
+                    game_eval_drop += drop
+
+                node = move
+
+            daily_stats[date_obj]["games"] += 1
+            daily_stats[date_obj]["blunders"] += game_blunders
+            daily_stats[date_obj]["total_eval_drop"] += game_eval_drop
+
+        if not daily_stats:
+            print("⚠️ No games with valid date headers or no mistakes found.")
+            return
+
+        print("\n📅 Daily Summary:")
+        for day in sorted(daily_stats.keys()):
+            stats = daily_stats[day]
+            games = stats["games"]
+            blunders = stats["blunders"]
+            avg_drop = (stats["total_eval_drop"] / max(blunders, 1)) / 100
+            print(f"{day}: {games} game(s), {blunders} blunder(s), avg eval drop: {avg_drop:.2f} pawns")
+
+        print("\n✅ Use this to see if you're improving day by day.")
 
     def close(self):
         self.engine.quit()
