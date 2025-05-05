@@ -125,40 +125,107 @@ class GameAnalyzer:
             print(f"   📍 FEN: {pos['fen']}")
             print("-" * 60)
 
-    def find_common_mistakes(self, limit_eval_drop: float = 1.5):
+    def find_common_mistakes(self, limit_eval_drop: float = 1.5, max_games: int = None, verbose: bool = False):
         """
-        Uses Stockfish to find evaluation drops that suggest blunders/inaccuracies.
+        Uses Stockfish to identify significant evaluation drops after your move (blunders/inaccuracies).
+        Prints the worst eval drops and most repeated mistakes (by SAN or FEN).
         """
         print("\n❌ Common blunders or inaccuracies:")
-        mistakes = defaultdict(int)
 
-        for file in self._load_pgn_files():
+        all_mistakes = []
+        mistake_moves = Counter()
+
+        files = self._load_pgn_files()
+        if max_games:
+            files = files[:max_games]
+
+        for i, file in enumerate(files, 1):
+            if verbose:
+                print(f"🔍 Evaluating game {i}/{len(files)}: {os.path.basename(file)}")
+
             with open(file, encoding="utf-8") as f:
                 game = chess.pgn.read_game(f)
 
-            node = game
+            if not game:
+                continue
+
             board = game.board()
-            prev_eval = None
+            node = game
+            move_number = 0
+
+            headers = game.headers
+            white = headers.get("White", "Unknown")
+            black = headers.get("Black", "Unknown")
+            white_elo = headers.get("WhiteElo", "N/A")
+            black_elo = headers.get("BlackElo", "N/A")
 
             while node.variations:
                 move = node.variation(0)
+                move_number += 1
+
+                if board.turn == chess.WHITE:  # Change this to BLACK if you play Black
+                    try:
+                        info_before = self.engine.analyse(board, chess.engine.Limit(depth=12))
+                        eval_before = info_before["score"].relative.score(mate_score=10000)
+                    except Exception:
+                        break
+                else:
+                    board.push(move.move)
+                    node = move
+                    continue
+
+                try:
+                    board_before = move.parent.board()
+                    san = board_before.san(move.move)
+                except Exception:
+                    san = "?"
+
                 board.push(move.move)
 
-                info = self.engine.analyse(board, chess.engine.Limit(depth=15))
-                score = info["score"].relative.score(mate_score=10000)  # normalize
+                try:
+                    info_after = self.engine.analyse(board, chess.engine.Limit(depth=12))
+                    eval_after = info_after["score"].relative.score(mate_score=10000)
+                except Exception:
+                    continue
 
-                if prev_eval is not None and score is not None:
-                    eval_drop = prev_eval - score
+                if eval_before is not None and eval_after is not None:
+                    eval_drop = eval_before - eval_after
                     if eval_drop > limit_eval_drop:
-                        fen = board.fen()
-                        mistakes[fen] += 1
+                        all_mistakes.append({
+                            "move_number": move_number,
+                            "move_san": san,
+                            "eval_drop": eval_drop,
+                            "eval_before": eval_before,
+                            "eval_after": eval_after,
+                            "fen": board_before.fen(),
+                            "file": os.path.basename(file),
+                            "white": white,
+                            "black": black,
+                            "white_elo": white_elo,
+                            "black_elo": black_elo
+                        })
+                        mistake_moves[san] += 1
 
-                prev_eval = score
                 node = move
 
-        top_mistakes = sorted(mistakes.items(), key=lambda x: x[1], reverse=True)[:5]
-        for i, (fen, count) in enumerate(top_mistakes, 1):
-            print(f"{i}. Occurred {count} times: {fen}")
+        if not all_mistakes:
+            print("✅ No major mistakes detected.")
+            return
+
+        top_blunders = sorted(all_mistakes, key=lambda x: x["eval_drop"], reverse=True)[:5]
+
+        print("\n🔻 Top evaluation drops:")
+        for i, mistake in enumerate(top_blunders, 1):
+            print(
+                f"{i}. {mistake['move_san']} → Eval dropped from {mistake['eval_before']} to {mistake['eval_after']} (Δ -{mistake['eval_drop']:.1f})")
+            print(
+                f"   📁 Game: {mistake['file']} | {mistake['white']} ({mistake['white_elo']}) vs {mistake['black']} ({mistake['black_elo']})")
+            print(f"   📍 FEN: {mistake['fen']}")
+            print("-" * 60)
+
+        print("\n♻️ Most frequently repeated mistakes (by move SAN):")
+        for move, count in mistake_moves.most_common(5):
+            print(f"• {move} → {count} times")
 
     def analyze_opening_issues(self, move_limit: int = 10):
         """
