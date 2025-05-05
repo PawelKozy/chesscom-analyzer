@@ -45,12 +45,15 @@ Edit `config.py` to set your Chess.com username and storage path:
 USERNAME = "your_chess_username"
 BASE_URL = "https://api.chess.com/pub/player"
 STORAGE_PATH = "games"
-You can also use command-line arguments:
 ```
+
+You can also use command-line arguments:
 
 python main.py           # Download latest month
 python main.py --all     # Download all available months
-📁 Output Structure
+
+##📁 Output Structure
+
 Downloaded games will be saved in:
 
 games/
@@ -74,10 +77,13 @@ Material imbalance
 Endgame flag
 
 Example:
+
+swift
+Kopiuj
+Edytuj
 1. ⏱ 16.0s on move 35 (Black played ...Kc7)
    📁 From game: 2025-03-31_22-11-45_157.pgn
    📍 FEN: 8/5b1p/1k1p1bp1/2p2P2/1PP5/3P4/2K4P/2B5 b - - 0 35
-   
 ✅ Roadmap
  Time-use analysis
 
@@ -91,4 +97,3 @@ Example:
 
 📜 License
 MIT (feel free to fork, use, and improve)
-
