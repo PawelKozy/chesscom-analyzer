@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136655085922",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.25\"]\n[Round \"-\"]\n[White \"pawelkozy\"]\n[Black \"viyoojkunnumpurath\"]\n[Result \"1-0\"]\n[CurrentPosition \"r1bk3r/pp1p1N1p/n4p2/3B1Pp1/3R4/8/P4PPP/5RK1 b - -\"]\n[Timezone \"UTC\"]\n[ECO \"C40\"]\n[ECOUrl \"https://www.chess.com/openings/Kings-Pawn-Opening-Kings-Knight-McConnell-Defense\"]\n[UTCDate \"2025.03.25\"]\n[UTCTime \"12:51:33\"]\n[WhiteElo \"463\"]\n[BlackElo \"452\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won on time\"]\n[StartTime \"12:51:33\"]\n[EndDate \"2025.03.25\"]\n[EndTime \"13:21:22\"]\n[Link \"https://www.chess.com/game/live/136655085922\"]\n\n1. e4 {[%clk 0:15:09.7]} 1... e5 {[%clk 0:15:08.1]} 2. Nf3 {[%clk 0:15:17.5]} 2... Qf6 {[%clk 0:14:48.7]} 3. Nc3 {[%clk 0:15:18]} 3... Bc5 {[%clk 0:14:29.7]} 4. Nd5 {[%clk 0:15:07]} 4... Qc6 {[%clk 0:14:10.1]} 5. Nxe5 {[%clk 0:14:53.9]} 5... Qd6 {[%clk 0:13:48.9]} 6. d4 {[%clk 0:14:48]} 6... Bb4+ {[%clk 0:13:53.5]} 7. Bd2 {[%clk 0:14:44.5]} 7... Bxd2+ {[%clk 0:13:44.4]} 8. Qxd2 {[%clk 0:14:36.5]} 8... c6 {[%clk 0:13:40.5]} 9. Qf4 {[%clk 0:13:25.5]} 9... f6 {[%clk 0:13:39.2]} 10. Bc4 {[%clk 0:12:02.1]} 10... cxd5 {[%clk 0:13:42.4]} 11. Bxd5 {[%clk 0:11:29.2]} 11... Qb4+ {[%clk 0:13:47.8]} 12. c3 {[%clk 0:11:19.6]} 12... Qxb2 {[%clk 0:13:48.6]} 13. O-O {[%clk 0:10:20.6]} 13... Qxc3 {[%clk 0:13:47.4]} 14. Nf7 {[%clk 0:10:10.2]} 14... Qxd4 {[%clk 0:13:44.8]} 15. Rad1 {[%clk 0:09:53.8]} 15... g5 {[%clk 0:13:27]} 16. Qf5 {[%clk 0:09:12.9]} 16... Ne7 {[%clk 0:12:45]} 17. Nd6+ {[%clk 0:08:55.4]} 17... Kd8 {[%clk 0:12:41.1]} 18. Nf7+ {[%clk 0:08:44.3]} 18... Ke8 {[%clk 0:12:38.5]} 19. Nd6+ {[%clk 0:08:07.5]} 19... Kd8 {[%clk 0:12:39.3]} 20. Rxd4 {[%clk 0:07:30.5]} 20... Nxf5 {[%clk 0:12:41]} 21. exf5 {[%clk 0:07:36.9]} 21... Na6 {[%clk 0:12:36.1]} 22. Nf7+ {[%clk 0:07:33.6]} 1-0\n",
+  "time_control": "900+10",
+  "end_time": 1742908882,
+  "rated": true,
+  "accuracies": {
+    "white": 60.1,
+    "black": 49.2
+  },
+  "tcn": "mC0Kgv7Tbs9IsJTQvKQRlBIzclzldlYQlD1TfAQJAJRzkszjegjsK1sBad2MDL!01R87R1781R87dB0LCL5OR1",
+  "uuid": "e1823402-0977-11f0-b245-be110401000f",
+  "initial_setup": "",
+  "fen": "r1bk3r/pp1p1N1p/n4p2/3B1Pp1/3R4/8/P4PPP/5RK1 b - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 463,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "black": {
+    "rating": 452,
+    "result": "timeout",
+    "@id": "https://api.chess.com/pub/player/viyoojkunnumpurath",
+    "username": "viyoojkunnumpurath",
+    "uuid": "8e06fe2e-e6f7-11ea-a22e-ad506057ed2a"
+  },
+  "eco": "https://www.chess.com/openings/Kings-Pawn-Opening-Kings-Knight-McConnell-Defense"
+}

@@ -1,0 +1,27 @@
+{
+  "url": "https://www.chess.com/game/live/138069738366",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.05.03\"]\n[Round \"-\"]\n[White \"pawelkozy\"]\n[Black \"kolikko2\"]\n[Result \"0-1\"]\n[CurrentPosition \"rn3r2/pp3ppk/2p4p/8/8/4bq2/PPP4P/RN2RK2 w - - 0 21\"]\n[Timezone \"UTC\"]\n[ECO \"C40\"]\n[ECOUrl \"https://www.chess.com/openings/Kings-Pawn-Opening-Kings-Knight-Elephant-Gambit-3.Nxe5\"]\n[UTCDate \"2025.05.03\"]\n[UTCTime \"19:47:45\"]\n[WhiteElo \"702\"]\n[BlackElo \"681\"]\n[TimeControl \"900+10\"]\n[Termination \"kolikko2 won by checkmate\"]\n[StartTime \"19:47:45\"]\n[EndDate \"2025.05.03\"]\n[EndTime \"20:02:16\"]\n[Link \"https://www.chess.com/game/live/138069738366\"]\n\n1. e4 {[%clk 0:15:04.5]} 1... e5 {[%clk 0:15:02.8]} 2. Nf3 {[%clk 0:15:12.6]} 2... d5 {[%clk 0:15:05.7]} 3. Nxe5 {[%clk 0:15:12]} 3... Qe7 {[%clk 0:14:58.2]} 4. Qh5 {[%clk 0:15:10.5]} 4... Nf6 {[%clk 0:14:46.7]} 5. Qg5 {[%clk 0:14:53.8]} 5... h6 {[%clk 0:14:32.3]} 6. Qf4 {[%clk 0:14:46.7]} 6... Nh5 {[%clk 0:14:01.4]} 7. Qf3 {[%clk 0:14:04.4]} 7... Qxe5 {[%clk 0:13:53.4]} 8. Bb5+ {[%clk 0:14:02.1]} 8... c6 {[%clk 0:13:46.9]} 9. Bd3 {[%clk 0:14:01.4]} 9... dxe4 {[%clk 0:12:53.6]} 10. Bxe4 {[%clk 0:13:55.6]} 10... Bc5 {[%clk 0:12:00.3]} 11. O-O {[%clk 0:13:56.1]} 11... Nf6 {[%clk 0:11:51.8]} 12. Re1 {[%clk 0:13:39.2]} 12... O-O {[%clk 0:11:45]} 13. d3 {[%clk 0:13:30.5]} 13... Bg4 {[%clk 0:11:32.3]} 14. Bh7+ {[%clk 0:13:02.9]} 14... Kxh7 {[%clk 0:11:28.6]} 15. Qe4+ {[%clk 0:12:28.5]} 15... Nxe4 {[%clk 0:11:26.4]} 16. dxe4 {[%clk 0:12:34.9]} 16... Qd4 {[%clk 0:11:23]} 17. Be3 {[%clk 0:12:32.2]} 17... Qxe4 {[%clk 0:11:17.7]} 18. f3 {[%clk 0:12:19.8]} 18... Bxf3 {[%clk 0:10:23.8]} 19. gxf3 {[%clk 0:12:16.2]} 19... Bxe3+ {[%clk 0:10:00.3]} 20. Kf1 {[%clk 0:12:20.3]} 20... Qxf3# {[%clk 0:09:59]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1746302536,
+  "rated": true,
+  "tcn": "mC0KgvZJvK70dN!TNM3VMDTNDv0KfHYQHtJCtC9IegNTfe8!lt6EC3!3vCTCtCKBcuBCnvEvovIugfCv",
+  "uuid": "7eeecc1b-2857-11f0-8114-3039ba01000f",
+  "initial_setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+  "fen": "rn3r2/pp3ppk/2p4p/8/8/4bq2/PPP4P/RN2RK2 w - - 0 21",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 702,
+    "result": "checkmated",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "black": {
+    "rating": 681,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/kolikko2",
+    "username": "kolikko2",
+    "uuid": "291b920e-9c20-11ee-a358-edbe2373af25"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136577033758",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.23\"]\n[Round \"-\"]\n[White \"Ciikiw33\"]\n[Black \"pawelkozy\"]\n[Result \"0-1\"]\n[CurrentPosition \"r3kb1r/pp5p/5p2/4pb2/2NP4/2PK4/PP3q1P/RN2R3 w kq -\"]\n[Timezone \"UTC\"]\n[ECO \"B10\"]\n[ECOUrl \"https://www.chess.com/openings/Caro-Kann-Defense\"]\n[UTCDate \"2025.03.23\"]\n[UTCTime \"09:37:03\"]\n[WhiteElo \"449\"]\n[BlackElo \"444\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won - game abandoned\"]\n[StartTime \"09:37:03\"]\n[EndDate \"2025.03.23\"]\n[EndTime \"09:53:00\"]\n[Link \"https://www.chess.com/game/live/136577033758\"]\n\n1. e4 {[%clk 0:14:31.1]} 1... c6 {[%clk 0:15:07.6]} 2. Qh5 {[%clk 0:14:36.5]} 2... Nf6 {[%clk 0:14:56.2]} 3. Qe5 {[%clk 0:14:42.1]} 3... d5 {[%clk 0:14:33]} 4. exd5 {[%clk 0:14:46.1]} 4... Nbd7 {[%clk 0:14:32.7]} 5. Qg5 {[%clk 0:14:34.5]} 5... cxd5 {[%clk 0:14:31.3]} 6. d4 {[%clk 0:14:40.9]} 6... Ne4 {[%clk 0:13:36.8]} 7. Qxd5 {[%clk 0:14:47.7]} 7... Ndf6 {[%clk 0:12:49.5]} 8. Bc4 {[%clk 0:14:48.1]} 8... Nxd5 {[%clk 0:12:53.7]} 9. Bxd5 {[%clk 0:14:44.1]} 9... Qxd5 {[%clk 0:12:52.6]} 10. Nf3 {[%clk 0:14:43.5]} 10... Qa5+ {[%clk 0:12:40]} 11. c3 {[%clk 0:14:47.5]} 11... e6 {[%clk 0:12:12.3]} 12. Ne5 {[%clk 0:14:51.9]} 12... Ng5 {[%clk 0:11:53.2]} 13. Bxg5 {[%clk 0:14:47.5]} 13... f6 {[%clk 0:11:54]} 14. Bxf6 {[%clk 0:14:54.6]} 14... gxf6 {[%clk 0:12:01.6]} 15. Nc4 {[%clk 0:14:59.6]} 15... Qg5 {[%clk 0:11:23.5]} 16. O-O {[%clk 0:15:03.1]} 16... e5 {[%clk 0:11:23.3]} 17. Re1 {[%clk 0:15:05]} 17... Bh3 {[%clk 0:11:01.7]} 18. Kf1 {[%clk 0:15:02.1]} 18... Qxg2+ {[%clk 0:10:51.4]} 19. Ke2 {[%clk 0:15:01.4]} 19... Bg4+ {[%clk 0:10:44.1]} 20. Kd2 {[%clk 0:15:02.2]} 20... Qxf2+ {[%clk 0:10:34.8]} 21. Kd3 {[%clk 0:15:09.6]} 21... Bf5+ {[%clk 0:10:29.3]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1742723580,
+  "rated": true,
+  "accuracies": {
+    "white": 71.6,
+    "black": 81.8
+  },
+  "tcn": "mCYQdN!TNKZJCJ5ZKMQJlBTCMJZTfATJAJ7JgvJGks0SvKCMcM1TMT2TKAGMegSKfe6xgfMofmxEmlonltEL",
+  "uuid": "60d5adf0-07ca-11f0-9fbb-8dab2e01000f",
+  "initial_setup": "",
+  "fen": "r3kb1r/pp5p/5p2/4pb2/2NP4/2PK4/PP3q1P/RN2R3 w kq -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 449,
+    "result": "abandoned",
+    "@id": "https://api.chess.com/pub/player/ciikiw33",
+    "username": "Ciikiw33",
+    "uuid": "411cbb56-c124-11ef-9b7d-23778e817ca7"
+  },
+  "black": {
+    "rating": 444,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Caro-Kann-Defense"
+}

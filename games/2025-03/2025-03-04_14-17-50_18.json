@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/123532505060",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.04\"]\n[Round \"-\"]\n[White \"pawelkozy\"]\n[Black \"sigmaduak\"]\n[Result \"1-0\"]\n[CurrentPosition \"rnbqkb1r/pp2pppp/5n2/3p4/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq -\"]\n[Timezone \"UTC\"]\n[ECO \"B13\"]\n[ECOUrl \"https://www.chess.com/openings/Caro-Kann-Defense-Exchange-Variation-3...cxd5\"]\n[UTCDate \"2025.03.04\"]\n[UTCTime \"13:16:58\"]\n[WhiteElo \"379\"]\n[BlackElo \"403\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won by resignation\"]\n[StartTime \"13:16:58\"]\n[EndDate \"2025.03.04\"]\n[EndTime \"13:17:50\"]\n[Link \"https://www.chess.com/game/live/123532505060\"]\n\n1. e4 {[%clk 0:15:08.3]} 1... c6 {[%clk 0:15:08.8]} 2. d4 {[%clk 0:15:14.8]} 2... d5 {[%clk 0:15:16.9]} 3. exd5 {[%clk 0:15:20.1]} 3... cxd5 {[%clk 0:15:24.4]} 4. Nc3 {[%clk 0:15:27.1]} 4... Nf6 {[%clk 0:15:30.7]} 1-0\n",
+  "time_control": "900+10",
+  "end_time": 1741094270,
+  "rated": true,
+  "accuracies": {
+    "white": 97.3,
+    "black": 99.7
+  },
+  "tcn": "mCYQlBZJCJQJbs!T",
+  "uuid": "f3850c21-f8fa-11ef-a0ca-4c696e01000f",
+  "initial_setup": "",
+  "fen": "rnbqkb1r/pp2pppp/5n2/3p4/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 379,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "black": {
+    "rating": 403,
+    "result": "resigned",
+    "@id": "https://api.chess.com/pub/player/sigmaduak",
+    "username": "sigmaduak",
+    "uuid": "2515d246-9080-11ef-b39a-e3ef4c6f4b01"
+  },
+  "eco": "https://www.chess.com/openings/Caro-Kann-Defense-Exchange-Variation-3...cxd5"
+}

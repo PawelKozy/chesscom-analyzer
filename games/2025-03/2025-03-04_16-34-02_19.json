@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/123537154118",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.04\"]\n[Round \"-\"]\n[White \"xwymsf\"]\n[Black \"pawelkozy\"]\n[Result \"0-1\"]\n[CurrentPosition \"r1bq2k1/ppp2ppp/2n1r3/3ppNBn/P7/P1PP4/5PPP/1N2KB1R w K -\"]\n[Timezone \"UTC\"]\n[ECO \"C44\"]\n[ECOUrl \"https://www.chess.com/openings/Kings-Pawn-Opening-Kings-Knight-Variation-2...Nc6\"]\n[UTCDate \"2025.03.04\"]\n[UTCTime \"15:24:34\"]\n[WhiteElo \"324\"]\n[BlackElo \"386\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won by resignation\"]\n[StartTime \"15:24:34\"]\n[EndDate \"2025.03.04\"]\n[EndTime \"15:34:02\"]\n[Link \"https://www.chess.com/game/live/123537154118\"]\n\n1. e4 {[%clk 0:15:07.6]} 1... e5 {[%clk 0:15:03.5]} 2. Nf3 {[%clk 0:15:13.6]} 2... Nc6 {[%clk 0:15:09.8]} 3. a4 {[%clk 0:15:10.4]} 3... Nf6 {[%clk 0:15:14.2]} 4. Ra3 {[%clk 0:15:14.5]} 4... Nxe4 {[%clk 0:15:18.5]} 5. d3 {[%clk 0:15:13.9]} 5... Nf6 {[%clk 0:15:08.7]} 6. c3 {[%clk 0:14:36.8]} 6... Bxa3 {[%clk 0:15:09.3]} 7. bxa3 {[%clk 0:14:44.2]} 7... d5 {[%clk 0:14:56.9]} 8. Qe2 {[%clk 0:13:42.9]} 8... O-O {[%clk 0:14:59.8]} 9. Bg5 {[%clk 0:12:59.6]} 9... Re8 {[%clk 0:15:00.8]} 10. Nh4 {[%clk 0:11:51.6]} 10... Re7 {[%clk 0:14:14.7]} 11. Nf5 {[%clk 0:11:19.9]} 11... Re6 {[%clk 0:14:04.5]} 12. Qh5 {[%clk 0:10:34.2]} 12... Nxh5 {[%clk 0:14:11.1]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1741102442,
+  "rated": true,
+  "accuracies": {
+    "white": 51,
+    "black": 70.6
+  },
+  "tcn": "mC0Kgv5Qiy!TaqTCltCTks9qjqZJdm8!cM98vF80FL0SmNTN",
+  "uuid": "c6d0059f-f90c-11ef-a0ca-4c696e01000f",
+  "initial_setup": "",
+  "fen": "r1bq2k1/ppp2ppp/2n1r3/3ppNBn/P7/P1PP4/5PPP/1N2KB1R w K -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 324,
+    "result": "resigned",
+    "@id": "https://api.chess.com/pub/player/xwymsf",
+    "username": "xwymsf",
+    "uuid": "57aed942-fd1d-11ee-8d96-43eb0006fc7c"
+  },
+  "black": {
+    "rating": 386,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Kings-Pawn-Opening-Kings-Knight-Variation-2...Nc6"
+}

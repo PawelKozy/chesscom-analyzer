@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136886274434",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.31\"]\n[Round \"-\"]\n[White \"pawelkozy\"]\n[Black \"LucasChess0102\"]\n[Result \"1-0\"]\n[CurrentPosition \"R7/1Q1k2pp/2p1p3/3pP3/1p1q4/5r2/1PP2P1P/R4K2 b - -\"]\n[Timezone \"UTC\"]\n[ECO \"B00\"]\n[ECOUrl \"https://www.chess.com/openings/Nimzowitsch-Defense-2.d4-e6-3.Nf3-d5-4.e5\"]\n[UTCDate \"2025.03.31\"]\n[UTCTime \"19:51:20\"]\n[WhiteElo \"516\"]\n[BlackElo \"511\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won by checkmate\"]\n[StartTime \"19:51:20\"]\n[EndDate \"2025.03.31\"]\n[EndTime \"20:11:45\"]\n[Link \"https://www.chess.com/game/live/136886274434\"]\n\n1. e4 {[%clk 0:15:09.6]} 1... e6 {[%clk 0:15:04.5]} 2. d4 {[%clk 0:15:17.2]} 2... d5 {[%clk 0:15:11.2]} 3. e5 {[%clk 0:15:24.4]} 3... Nc6 {[%clk 0:15:09.2]} 4. Nf3 {[%clk 0:15:29.8]} 4... Nb4 {[%clk 0:14:59.6]} 5. Nc3 {[%clk 0:15:20.2]} 5... f5 {[%clk 0:14:51.8]} 6. Bg5 {[%clk 0:15:15.9]} 6... Be7 {[%clk 0:14:43.4]} 7. Bb5+ {[%clk 0:15:04.7]} 7... c6 {[%clk 0:14:38.1]} 8. Be2 {[%clk 0:15:02.6]} 8... Bxg5 {[%clk 0:14:45.1]} 9. Nxg5 {[%clk 0:15:10.3]} 9... Qxg5 {[%clk 0:14:53.4]} 10. O-O {[%clk 0:15:12.2]} 10... f4 {[%clk 0:14:42.1]} 11. a3 {[%clk 0:14:39.7]} 11... a5 {[%clk 0:14:14]} 12. axb4 {[%clk 0:14:37.1]} 12... b6 {[%clk 0:14:06.2]} 13. Na4 {[%clk 0:14:36.9]} 13... axb4 {[%clk 0:14:10.6]} 14. Nxb6 {[%clk 0:14:34.9]} 14... f3 {[%clk 0:13:54.5]} 15. Bxf3 {[%clk 0:14:37.4]} 15... Rb8 {[%clk 0:13:41.6]} 16. Na8 {[%clk 0:13:48.5]} 16... Ne7 {[%clk 0:13:18.5]} 17. Nc7+ {[%clk 0:13:02.3]} 17... Kf8 {[%clk 0:12:54.4]} 18. Na6 {[%clk 0:12:33]} 18... Bxa6 {[%clk 0:12:57.4]} 19. Rxa6 {[%clk 0:12:39.1]} 19... Nf5 {[%clk 0:12:57.2]} 20. Qd3 {[%clk 0:11:38.2]} 20... Ke7 {[%clk 0:12:14.3]} 21. Ra7+ {[%clk 0:11:33.1]} 21... Kd8 {[%clk 0:12:09.3]} 22. g4 {[%clk 0:10:55.8]} 22... Rf8 {[%clk 0:11:49.9]} 23. Rfa1 {[%clk 0:10:49.6]} 23... Nxd4 {[%clk 0:11:49.7]} 24. Qxd4 {[%clk 0:10:15]} 24... Rxf3 {[%clk 0:11:56]} 25. Ra8 {[%clk 0:10:13]} 25... Kc7 {[%clk 0:11:42.9]} 26. Qa7+ {[%clk 0:10:02.9]} 26... Rb7 {[%clk 0:11:34]} 27. Qa5+ {[%clk 0:09:59.1]} 27... Kd7 {[%clk 0:11:20.4]} 28. Qa6 {[%clk 0:08:48.3]} 28... Qxg4+ {[%clk 0:11:28.3]} 29. Kf1 {[%clk 0:08:43.7]} 29... Qd4 {[%clk 0:11:01.1]} 30. Qxb7# {[%clk 0:08:35.7]} 1-0\n",
+  "time_control": "900+10",
+  "end_time": 1743451905,
+  "rated": true,
+  "accuracies": {
+    "white": 63,
+    "black": 55.3
+  },
+  "tcn": "mC0SlBZJCK5QgvQzbs1LcM90fHYQHm0MvM7MegLDiqWGqzXPsyGzyPDvmv45P4!04Y89YO6OaO0Ldt90OW07oE?9faLBtB9vW47YBW5XWGYZGOMEgfEBOX",
+  "uuid": "84523418-0e69-11f0-86fc-5f149301000f",
+  "initial_setup": "",
+  "fen": "R7/1Q1k2pp/2p1p3/3pP3/1p1q4/5r2/1PP2P1P/R4K2 b - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 516,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "black": {
+    "rating": 511,
+    "result": "checkmated",
+    "@id": "https://api.chess.com/pub/player/lucaschess0102",
+    "username": "LucasChess0102",
+    "uuid": "0766c2f2-04eb-11f0-a4b6-87ee33bc8ee3"
+  },
+  "eco": "https://www.chess.com/openings/Nimzowitsch-Defense-2.d4-e6-3.Nf3-d5-4.e5"
+}

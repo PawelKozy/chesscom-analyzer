@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136698425780",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.26\"]\n[Round \"-\"]\n[White \"Dilip27kumar\"]\n[Black \"pawelkozy\"]\n[Result \"1-0\"]\n[CurrentPosition \"2Q2kr1/1Q6/5p2/4P3/5K2/7P/8/8 b - -\"]\n[Timezone \"UTC\"]\n[ECO \"B10\"]\n[ECOUrl \"https://www.chess.com/openings/Caro-Kann-Defense\"]\n[UTCDate \"2025.03.26\"]\n[UTCTime \"16:07:34\"]\n[WhiteElo \"466\"]\n[BlackElo \"440\"]\n[TimeControl \"900+10\"]\n[Termination \"Dilip27kumar won by checkmate\"]\n[StartTime \"16:07:34\"]\n[EndDate \"2025.03.26\"]\n[EndTime \"16:44:57\"]\n[Link \"https://www.chess.com/game/live/136698425780\"]\n\n1. e4 {[%clk 0:15:09]} 1... c6 {[%clk 0:15:06.6]} 2. Qf3 {[%clk 0:15:12.2]} 2... d5 {[%clk 0:15:15.3]} 3. e5 {[%clk 0:15:13.2]} 3... e6 {[%clk 0:15:08.3]} 4. c4 {[%clk 0:15:03.2]} 4... dxc4 {[%clk 0:15:08.2]} 5. Bxc4 {[%clk 0:15:07.3]} 5... Nd7 {[%clk 0:15:08.2]} 6. Qh5 {[%clk 0:15:08.3]} 6... Ngf6 {[%clk 0:14:57.4]} 7. exf6 {[%clk 0:15:02.1]} 7... Nxf6 {[%clk 0:15:00]} 8. Qg5 {[%clk 0:14:40.2]} 8... Qd4 {[%clk 0:14:47.4]} 9. Na3 {[%clk 0:14:21.7]} 9... Bxa3 {[%clk 0:14:41.8]} 10. Rb1 {[%clk 0:14:22.2]} 10... Bc5 {[%clk 0:14:33]} 11. Nh3 {[%clk 0:14:23.3]} 11... Ng4 {[%clk 0:14:18.6]} 12. b4 {[%clk 0:14:16.8]} 12... Qe4+ {[%clk 0:14:01.1]} 13. Be2 {[%clk 0:13:43.4]} 13... Qxb1 {[%clk 0:13:56.5]} 14. Bxg4 {[%clk 0:13:48.6]} 14... Qxc1+ {[%clk 0:14:00.4]} 15. Bd1 {[%clk 0:13:54.4]} 15... O-O {[%clk 0:13:54.1]} 16. bxc5 {[%clk 0:13:43]} 16... h6 {[%clk 0:13:17.8]} 17. Qh5 {[%clk 0:13:34.4]} 17... Rd8 {[%clk 0:13:15.9]} 18. d4 {[%clk 0:12:59.5]} 18... Qc3+ {[%clk 0:12:49.6]} 19. Ke2 {[%clk 0:12:24]} 19... Qc4+ {[%clk 0:12:42.7]} 20. Ke1 {[%clk 0:12:04.6]} 20... Qc3+ {[%clk 0:12:41.9]} 21. Ke2 {[%clk 0:12:10.7]} 21... Rxd4 {[%clk 0:12:35.4]} 22. f4 {[%clk 0:11:35.5]} 22... Qd2+ {[%clk 0:12:34]} 23. Kf3 {[%clk 0:11:36.5]} 23... Qxd1+ {[%clk 0:12:32.9]} 24. Rxd1 {[%clk 0:11:42]} 24... Rxd1 {[%clk 0:12:37.5]} 25. Kf2 {[%clk 0:11:37.4]} 25... Rd2+ {[%clk 0:12:20.4]} 26. Kg3 {[%clk 0:11:40]} 26... e5 {[%clk 0:11:56.2]} 27. fxe5 {[%clk 0:11:35.3]} 27... Rd3+ {[%clk 0:11:45.4]} 28. Kh4 {[%clk 0:11:35.6]} 28... g5+ {[%clk 0:11:21.3]} 29. Nxg5 {[%clk 0:11:35.9]} 29... hxg5+ {[%clk 0:11:23.7]} 30. Qxg5+ {[%clk 0:11:37.8]} 30... Kf8 {[%clk 0:11:22.1]} 31. Qf6 {[%clk 0:11:15.7]} 31... Be6 {[%clk 0:11:07.4]} 32. Qh6+ {[%clk 0:10:50.6]} 32... Ke7 {[%clk 0:11:07.5]} 33. h3 {[%clk 0:10:36.5]} 33... Rd4+ {[%clk 0:10:35.3]} 34. g4 {[%clk 0:10:43.2]} 34... Rg8 {[%clk 0:10:14.3]} 35. Kg3 {[%clk 0:10:28.7]} 35... Rd3+ {[%clk 0:10:08.6]} 36. Kg2 {[%clk 0:10:31.8]} 36... Rd2+ {[%clk 0:09:50.5]} 37. Qxd2 {[%clk 0:10:39.3]} 37... Bd5+ {[%clk 0:09:51.8]} 38. Kg3 {[%clk 0:10:41.3]} 38... Ke6 {[%clk 0:09:36.8]} 39. Qf4 {[%clk 0:10:17.7]} 39... Kd7 {[%clk 0:09:02.2]} 40. g5 {[%clk 0:10:21.9]} 40... b6 {[%clk 0:09:00.2]} 41. cxb6 {[%clk 0:09:29.4]} 41... axb6 {[%clk 0:09:00.7]} 42. a4 {[%clk 0:09:15.3]} 42... Be6 {[%clk 0:08:42.6]} 43. Qd4+ {[%clk 0:09:21.9]} 43... Bd5 {[%clk 0:08:19.3]} 44. Qxb6 {[%clk 0:09:25.8]} 44... Rxg5+ {[%clk 0:08:05.4]} 45. Kf4 {[%clk 0:09:28.8]} 45... Rg6 {[%clk 0:07:20.4]} 46. Qb7+ {[%clk 0:09:34.4]} 46... Ke6 {[%clk 0:07:28]} 47. Qc8+ {[%clk 0:09:02.2]} 47... Ke7 {[%clk 0:07:27.7]} 48. Qc7+ {[%clk 0:09:04.3]} 48... Ke6 {[%clk 0:07:28.4]} 49. a5 {[%clk 0:09:10.7]} 49... f6 {[%clk 0:07:31.7]} 50. Qd6+ {[%clk 0:08:33.2]} 50... Kf7 {[%clk 0:07:28.9]} 51. a6 {[%clk 0:08:33.5]} 51... Be6 {[%clk 0:05:22]} 52. a7 {[%clk 0:08:26.7]} 52... Rg8 {[%clk 0:04:54.5]} 53. Qc7+ {[%clk 0:08:17.3]} 53... Kg6 {[%clk 0:04:55.1]} 54. Qxc6 {[%clk 0:08:21.5]} 54... Kf7 {[%clk 0:04:00.3]} 55. Qb7+ {[%clk 0:07:47.4]} 55... Kf8 {[%clk 0:04:00]} 56. a8=Q+ {[%clk 0:07:54]} 56... Bc8 {[%clk 0:04:07]} 57. Qaxc8# {[%clk 0:08:00.6]} 1-0\n",
+  "time_control": "900+10",
+  "end_time": 1743007497,
+  "rated": true,
+  "accuracies": {
+    "white": 62.1,
+    "black": 57
+  },
+  "tcn": "mCYQdvZJCK0SkAJAfA5ZvN!TKTZTNM7Bbq9qabqIgxTEjzBCAmCbmEbcEd8!zI3VMN97lBcsemsAmeAsem7BnDslmvldhdBdvndlnwSKDKltwF2MxMVMNM!9MT6STV90pxtBoE4!FwBtwotlVlSJow0SlDSZEMXPIPWPiyJSDBSJBP!MwDMUPXZSX6S06Y0SyG1TYRS1GOJSOWU!RY1UYQU1QX19W~S646",
+  "uuid": "6deea301-0a5c-11f0-b81b-bee3db01000f",
+  "initial_setup": "",
+  "fen": "2Q2kr1/1Q6/5p2/4P3/5K2/7P/8/8 b - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 466,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/dilip27kumar",
+    "username": "Dilip27kumar",
+    "uuid": "77bf14d2-8f84-11ef-a7b7-250116182644"
+  },
+  "black": {
+    "rating": 440,
+    "result": "checkmated",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Caro-Kann-Defense"
+}

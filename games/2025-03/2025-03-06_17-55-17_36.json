@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/123612232820",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.06\"]\n[Round \"-\"]\n[White \"LeMichaelJordan\"]\n[Black \"pawelkozy\"]\n[Result \"1-0\"]\n[CurrentPosition \"r1b1kb1r/ppNp1npp/8/2p1PpB1/7P/8/PPP2PP1/R3KB1R b KQkq -\"]\n[Timezone \"UTC\"]\n[ECO \"C47\"]\n[ECOUrl \"https://www.chess.com/openings/Four-Knights-Game-Scotch-Variation-Accepted-5.Nxd4\"]\n[UTCDate \"2025.03.06\"]\n[UTCTime \"16:48:53\"]\n[WhiteElo \"432\"]\n[BlackElo \"399\"]\n[TimeControl \"900+10\"]\n[Termination \"LeMichaelJordan won by checkmate\"]\n[StartTime \"16:48:53\"]\n[EndDate \"2025.03.06\"]\n[EndTime \"16:55:17\"]\n[Link \"https://www.chess.com/game/live/123612232820\"]\n\n1. e4 {[%clk 0:14:30]} 1... e5 {[%clk 0:15:03.3]} 2. Nf3 {[%clk 0:14:35.9]} 2... Nc6 {[%clk 0:15:09.4]} 3. Nc3 {[%clk 0:14:43.3]} 3... Nf6 {[%clk 0:15:16.1]} 4. d4 {[%clk 0:14:44.4]} 4... exd4 {[%clk 0:15:16.6]} 5. Nxd4 {[%clk 0:14:52.3]} 5... Nxd4 {[%clk 0:15:23]} 6. Qxd4 {[%clk 0:15:01]} 6... Be7 {[%clk 0:15:08.4]} 7. e5 {[%clk 0:15:07.4]} 7... c5 {[%clk 0:14:57.4]} 8. Qe3 {[%clk 0:14:57.6]} 8... Ng4 {[%clk 0:14:47.4]} 9. Qf4 {[%clk 0:14:52.9]} 9... Nh6 {[%clk 0:14:25.1]} 10. Nd5 {[%clk 0:14:35.8]} 10... Bf8 {[%clk 0:13:34.6]} 11. h4 {[%clk 0:14:30.5]} 11... f5 {[%clk 0:13:34.1]} 12. Qg5 {[%clk 0:14:35.1]} 12... Qxg5 {[%clk 0:13:31.6]} 13. Bxg5 {[%clk 0:14:41.5]} 13... Nf7 {[%clk 0:13:23.7]} 14. Nc7# {[%clk 0:14:47.3]} 1-0\n",
+  "time_control": "900+10",
+  "end_time": 1741280117,
+  "rated": true,
+  "accuracies": {
+    "white": 74.8,
+    "black": 46
+  },
+  "tcn": "mC0Kgv5Qbs!TlBKBvBQBdB90CKYIBuTEuDEVsJ09pF1LDM7McMV1JY",
+  "uuid": "e314cc65-faaa-11ef-8f8a-f8edb501000f",
+  "initial_setup": "",
+  "fen": "r1b1kb1r/ppNp1npp/8/2p1PpB1/7P/8/PPP2PP1/R3KB1R b KQkq -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 432,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/lemichaeljordan",
+    "username": "LeMichaelJordan",
+    "uuid": "080f99e0-a723-11ed-8788-3164acc6f739"
+  },
+  "black": {
+    "rating": 399,
+    "result": "checkmated",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Four-Knights-Game-Scotch-Variation-Accepted-5.Nxd4"
+}

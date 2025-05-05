@@ -1,0 +1,31 @@
+{
+  "url": "https://www.chess.com/game/live/138107904838",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.05.04\"]\n[Round \"-\"]\n[White \"krakow23\"]\n[Black \"pawelkozy\"]\n[Result \"0-1\"]\n[CurrentPosition \"r3kb1r/1p1npppp/2p3q1/5N2/3B4/2Nn2P1/PPP2P1P/R2QR1K1 w kq - 1 16\"]\n[Timezone \"UTC\"]\n[ECO \"B18\"]\n[ECOUrl \"https://www.chess.com/openings/Caro-Kann-Defense-Classical-Variation\"]\n[UTCDate \"2025.05.04\"]\n[UTCTime \"21:26:47\"]\n[WhiteElo \"789\"]\n[BlackElo \"736\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won - game abandoned\"]\n[StartTime \"21:26:47\"]\n[EndDate \"2025.05.04\"]\n[EndTime \"21:45:40\"]\n[Link \"https://www.chess.com/game/live/138107904838\"]\n\n1. e4 {[%clk 0:15:06.2]} 1... c6 {[%clk 0:15:08.8]} 2. d4 {[%clk 0:15:09.9]} 2... d5 {[%clk 0:15:17.6]} 3. Nc3 {[%clk 0:14:59.7]} 3... dxe4 {[%clk 0:15:02.1]} 4. Nxe4 {[%clk 0:15:02.6]} 4... Bf5 {[%clk 0:15:06.3]} 5. Bd3 {[%clk 0:14:56.2]} 5... Qxd4 {[%clk 0:14:41.4]} 6. Nf3 {[%clk 0:14:17.3]} 6... Qd5 {[%clk 0:14:06]} 7. Nc3 {[%clk 0:13:04.8]} 7... Qe6+ {[%clk 0:13:56.4]} 8. Be3 {[%clk 0:13:04.7]} 8... Nd7 {[%clk 0:13:30.7]} 9. O-O {[%clk 0:12:19.7]} 9... Ngf6 {[%clk 0:13:26.5]} 10. Re1 {[%clk 0:12:12.4]} 10... Nd5 {[%clk 0:13:01.5]} 11. Bxa7 {[%clk 0:11:44.5]} 11... Qg6 {[%clk 0:12:18.8]} 12. Bd4 {[%clk 0:10:36.3]} 12... Nf4 {[%clk 0:11:59.4]} 13. g3 {[%clk 0:09:43.1]} 13... Nxd3 {[%clk 0:11:27.7]} 14. Nh4 {[%clk 0:09:35.2]} 14... Qd6 {[%clk 0:09:52.5]} 15. Nxf5 {[%clk 0:09:21.9]} 15... Qg6 {[%clk 0:09:03]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1746395140,
+  "rated": true,
+  "accuracies": {
+    "white": 45.81,
+    "black": 39.76
+  },
+  "tcn": "mCYQlBZJbsJCsC6Lft7BgvBJCsJScu5Zeg!TfeTJuWSUWBJDowDtvFURFLRU",
+  "uuid": "7ca79fe0-292e-11f0-83d0-51675c01000f",
+  "initial_setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+  "fen": "r3kb1r/1p1npppp/2p3q1/5N2/3B4/2Nn2P1/PPP2P1P/R2QR1K1 w kq - 1 16",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 789,
+    "result": "abandoned",
+    "@id": "https://api.chess.com/pub/player/krakow23",
+    "username": "krakow23",
+    "uuid": "53d8a8d0-ba53-11e6-8032-000000000000"
+  },
+  "black": {
+    "rating": 736,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  }
+}

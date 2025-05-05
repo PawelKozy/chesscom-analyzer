@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136193204126",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.12\"]\n[Round \"-\"]\n[White \"karamanlesya\"]\n[Black \"pawelkozy\"]\n[Result \"0-1\"]\n[CurrentPosition \"8/8/K1k5/2P5/r7/8/8/8 w - -\"]\n[Timezone \"UTC\"]\n[ECO \"C44\"]\n[ECOUrl \"https://www.chess.com/openings/Kings-Pawn-Opening-Kings-Knight-Variation-2...Nc6\"]\n[UTCDate \"2025.03.12\"]\n[UTCTime \"19:28:52\"]\n[WhiteElo \"350\"]\n[BlackElo \"372\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won by checkmate\"]\n[StartTime \"19:28:52\"]\n[EndDate \"2025.03.12\"]\n[EndTime \"20:20:01\"]\n[Link \"https://www.chess.com/game/live/136193204126\"]\n\n1. e4 {[%clk 0:15:04]} 1... e5 {[%clk 0:15:08.7]} 2. Nf3 {[%clk 0:15:10.8]} 2... Nc6 {[%clk 0:15:14]} 3. b3 {[%clk 0:15:02.2]} 3... Nf6 {[%clk 0:14:59.3]} 4. Nc3 {[%clk 0:15:01.4]} 4... Bc5 {[%clk 0:14:58.6]} 5. Bc4 {[%clk 0:14:39.2]} 5... h6 {[%clk 0:14:21.4]} 6. Nh4 {[%clk 0:13:59.6]} 6... Ng4 {[%clk 0:14:04.9]} 7. O-O {[%clk 0:13:53.1]} 7... O-O {[%clk 0:13:52.5]} 8. Nf5 {[%clk 0:13:40.7]} 8... Bxf2+ {[%clk 0:12:51.7]} 9. Kh1 {[%clk 0:13:32.5]} 9... Qf6 {[%clk 0:12:03.5]} 10. Qxg4 {[%clk 0:13:35.3]} 10... d6 {[%clk 0:11:36.1]} 11. Rxf2 {[%clk 0:13:35.2]} 11... Ne7 {[%clk 0:11:02.1]} 12. d3 {[%clk 0:12:41.5]} 12... g6 {[%clk 0:11:01.2]} 13. Bxh6 {[%clk 0:12:33.9]} 13... Re8 {[%clk 0:09:35.6]} 14. Raf1 {[%clk 0:10:58]} 14... Kh7 {[%clk 0:08:56.8]} 15. Bg5 {[%clk 0:10:36.9]} 15... gxf5 {[%clk 0:08:48.7]} 16. Bxf6 {[%clk 0:10:40.4]} 16... fxg4 {[%clk 0:08:56.6]} 17. Bxf7 {[%clk 0:10:34.1]} 17... Rf8 {[%clk 0:08:32.1]} 18. Bxe7 {[%clk 0:10:34]} 18... Rxf7 {[%clk 0:08:39.2]} 19. Rxf7+ {[%clk 0:10:41.9]} 19... Kg6 {[%clk 0:08:40.8]} 20. R1f6+ {[%clk 0:10:46.8]} 20... Kg5 {[%clk 0:08:43.5]} 21. Rg7+ {[%clk 0:10:45.3]} 21... Kh5 {[%clk 0:08:36.1]} 22. Rh7+ {[%clk 0:10:28.5]} 22... Kg5 {[%clk 0:08:34.5]} 23. h4+ {[%clk 0:10:27.7]} 23... gxh3 {[%clk 0:08:36.2]} 24. gxh3 {[%clk 0:10:21.6]} 24... Bxh3 {[%clk 0:08:36.6]} 25. Rxh3 {[%clk 0:10:25.8]} 25... Re8 {[%clk 0:08:40.2]} 26. Rg3+ {[%clk 0:10:21.6]} 26... Kh4 {[%clk 0:08:40.9]} 27. Rh6+ {[%clk 0:10:11.5]} 27... Kxg3 {[%clk 0:08:46.1]} 28. Bh4+ {[%clk 0:10:13.3]} 28... Kh3 {[%clk 0:08:32.3]} 29. Ne2 {[%clk 0:10:03.8]} 29... Rf8 {[%clk 0:08:31.6]} 30. Ng1+ {[%clk 0:09:48.6]} 30... Kg4 {[%clk 0:08:34.2]} 31. Kh2 {[%clk 0:09:37.1]} 31... d5 {[%clk 0:08:11.7]} 32. exd5 {[%clk 0:09:36.7]} 32... c5 {[%clk 0:08:13.9]} 33. d6 {[%clk 0:09:28]} 33... e4 {[%clk 0:08:09.5]} 34. dxe4 {[%clk 0:09:33.2]} 34... Kf4 {[%clk 0:08:14.7]} 35. d7 {[%clk 0:09:19.2]} 35... Rd8 {[%clk 0:08:21.5]} 36. Rf6+ {[%clk 0:09:19.6]} 36... Kg4 {[%clk 0:08:20.5]} 37. Nf3 {[%clk 0:08:57.5]} 37... Rxd7 {[%clk 0:08:23.2]} 38. e5 {[%clk 0:08:39.2]} 38... a5 {[%clk 0:07:54.2]} 39. e6 {[%clk 0:08:44.8]} 39... Re7 {[%clk 0:07:48.4]} 40. Bf2 {[%clk 0:08:20.6]} 40... Rh7+ {[%clk 0:07:37.6]} 41. Kg1 {[%clk 0:08:00.3]} 41... b6 {[%clk 0:06:54.3]} 42. Nh2+ {[%clk 0:08:05.5]} 42... Kg5 {[%clk 0:06:46.3]} 43. Rf8 {[%clk 0:07:53]} 43... Rg7 {[%clk 0:06:31.6]} 44. Be3+ {[%clk 0:06:47.1]} 44... Kg6 {[%clk 0:06:36.7]} 45. Ng4 {[%clk 0:06:30]} 45... Kh5 {[%clk 0:06:38.1]} 46. Kf1 {[%clk 0:06:02.6]} 46... Kxg4 {[%clk 0:06:10.7]} 47. Rf4+ {[%clk 0:06:00.5]} 47... Kg5 {[%clk 0:06:12]} 48. Ke2 {[%clk 0:05:01.2]} 48... Rg6 {[%clk 0:05:52.4]} 49. e7 {[%clk 0:04:57.2]} 49... Re6 {[%clk 0:05:58]} 50. Rf8+ {[%clk 0:04:52.1]} 50... Kg6 {[%clk 0:06:01]} 51. Rg8+ {[%clk 0:04:56.2]} 51... Kf7 {[%clk 0:06:08.6]} 52. Rh8 {[%clk 0:04:42.2]} 52... Kxe7 {[%clk 0:06:04.7]} 53. Rh7+ {[%clk 0:04:46.4]} 53... Kd6 {[%clk 0:06:03.9]} 54. c4 {[%clk 0:04:44.4]} 54... a4 {[%clk 0:05:52.5]} 55. bxa4 {[%clk 0:04:41.7]} 55... Re7 {[%clk 0:05:22.8]} 56. Rh8 {[%clk 0:04:33.6]} 56... Kd7 {[%clk 0:05:07.3]} 57. Rb8 {[%clk 0:04:13.7]} 57... Kc7 {[%clk 0:05:07.8]} 58. Ra8 {[%clk 0:03:48.9]} 58... Kb7 {[%clk 0:05:08.7]} 59. Rh8 {[%clk 0:03:29.2]} 59... Kc7 {[%clk 0:05:12.3]} 60. Kd2 {[%clk 0:03:17.5]} 60... Kd7 {[%clk 0:05:11]} 61. Bg5 {[%clk 0:03:05.3]} 61... Re8 {[%clk 0:05:10.2]} 62. Rh7+ {[%clk 0:03:05.1]} 62... Ke6 {[%clk 0:05:04.8]} 63. Rh6+ {[%clk 0:03:00.7]} 63... Kf5 {[%clk 0:05:06.1]} 64. Be3 {[%clk 0:03:03.1]} 64... Rd8+ {[%clk 0:05:04.9]} 65. Ke2 {[%clk 0:02:53.9]} 65... Rd5 {[%clk 0:05:00.6]} 66. Rxb6 {[%clk 0:03:00.3]} 66... Re5 {[%clk 0:05:01.6]} 67. a5 {[%clk 0:03:01.5]} 67... Re8 {[%clk 0:04:59.7]} 68. a6 {[%clk 0:02:58.8]} 68... Ra8 {[%clk 0:05:05.3]} 69. Bxc5 {[%clk 0:02:56.7]} 69... Re8+ {[%clk 0:05:08.7]} 70. Kd3 {[%clk 0:03:00.9]} 70... Rc8 {[%clk 0:04:57.8]} 71. Bd6 {[%clk 0:02:55]} 71... Ke6 {[%clk 0:04:54.8]} 72. a7 {[%clk 0:02:58]} 72... Ra8 {[%clk 0:05:02]} 73. Bc7+ {[%clk 0:02:31.5]} 73... Kd7 {[%clk 0:05:02.9]} 74. Rb7 {[%clk 0:02:26.9]} 74... Kc8 {[%clk 0:04:56.3]} 75. Bd6 {[%clk 0:01:27.7]} 75... Kxb7 {[%clk 0:04:58.5]} 76. c5 {[%clk 0:01:29.8]} 76... Rxa7 {[%clk 0:04:58.3]} 77. a4 {[%clk 0:01:33]} 77... Rxa4 {[%clk 0:05:03.6]} 78. Kc3 {[%clk 0:01:36.7]} 78... Kc6 {[%clk 0:05:04.6]} 79. Be7 {[%clk 0:01:39.9]} 79... Ra7 {[%clk 0:05:01.7]} 80. Kc4 {[%clk 0:01:46.6]} 80... Rxe7 {[%clk 0:05:06.6]} 81. Kb4 {[%clk 0:01:52.4]} 81... Re4+ {[%clk 0:05:10.4]} 82. Ka5 {[%clk 0:01:58.7]} 82... Rc4 {[%clk 0:05:08.9]} 83. Ka6 {[%clk 0:01:43.3]} 83... Ra4# {[%clk 0:05:15.2]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1741810801,
+  "rated": true,
+  "accuracies": {
+    "white": 60.5,
+    "black": 66.8
+  },
+  "tcn": "mC0Kgv5Qjr!Tbs9IfA3VvFTEeg8!FLIngh7TdEZRfnQ0lt2UcV98af!3VMULMTLEA189T091n13UfTUM12MN23NMpFExox6x3x48xwMFTVFw0Fwxsm89mgxEhpRJCJYIJRKCtCEDRZ97VTDEgv7ZCKWGKSZ0Fn03pgXPvpEMT932nuMUpEUNgfNE9DEMfm2US0USD9MU9!U1!?10?30RkAGyryS03?RZ?5ZY54YX4?XYmlYZuM08?3ZS3VSLMu87lm7JVPJKyGK8GO84uI48mt86IRLSOW64RYSZPXZ6YR6XAI4WiyWytsXQR0yWsAW0Az0CzGCAGOAy",
+  "uuid": "3ae3f116-ff78-11ef-a0a4-70fdc501000f",
+  "initial_setup": "",
+  "fen": "8/8/K1k5/2P5/r7/8/8/8 w - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 350,
+    "result": "checkmated",
+    "@id": "https://api.chess.com/pub/player/karamanlesya",
+    "username": "karamanlesya",
+    "uuid": "43a90180-e5c9-11ef-9118-6368884a5ec0"
+  },
+  "black": {
+    "rating": 372,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Kings-Pawn-Opening-Kings-Knight-Variation-2...Nc6"
+}

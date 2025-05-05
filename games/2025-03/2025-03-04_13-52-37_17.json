@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/123531202348",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.04\"]\n[Round \"-\"]\n[White \"BayronDrian_Medina\"]\n[Black \"pawelkozy\"]\n[Result \"1/2-1/2\"]\n[CurrentPosition \"8/5p1p/1b6/6p1/2kpr1P1/8/7q/5K2 w - -\"]\n[Timezone \"UTC\"]\n[ECO \"C26\"]\n[ECOUrl \"https://www.chess.com/openings/Vienna-Game-Falkbeer-Variation-3.d4-exd4\"]\n[UTCDate \"2025.03.04\"]\n[UTCTime \"12:32:55\"]\n[WhiteElo \"399\"]\n[BlackElo \"370\"]\n[TimeControl \"900+10\"]\n[Termination \"Game drawn by stalemate\"]\n[StartTime \"12:32:55\"]\n[EndDate \"2025.03.04\"]\n[EndTime \"12:52:37\"]\n[Link \"https://www.chess.com/game/live/123531202348\"]\n\n1. e4 {[%clk 0:15:06.7]} 1... e5 {[%clk 0:15:03.5]} 2. Nc3 {[%clk 0:15:15.2]} 2... Nf6 {[%clk 0:14:45.5]} 3. d4 {[%clk 0:15:05.2]} 3... exd4 {[%clk 0:14:49.5]} 4. Nb5 {[%clk 0:15:14.3]} 4... Nxe4 {[%clk 0:14:49]} 5. Bf4 {[%clk 0:14:48.4]} 5... Na6 {[%clk 0:14:33.4]} 6. Qxd4 {[%clk 0:14:44.3]} 6... d5 {[%clk 0:14:17.8]} 7. O-O-O {[%clk 0:13:34.5]} 7... g5 {[%clk 0:13:54.7]} 8. Nxa7 {[%clk 0:13:37.4]} 8... Bg4 {[%clk 0:13:35.7]} 9. f3 {[%clk 0:13:38.8]} 9... Bh5 {[%clk 0:12:58.6]} 10. g4 {[%clk 0:13:37.3]} 10... Bg6 {[%clk 0:12:55.4]} 11. Qa4+ {[%clk 0:13:06.2]} 11... c6 {[%clk 0:12:46.6]} 12. fxe4 {[%clk 0:12:57.9]} 12... Bxe4 {[%clk 0:12:32.4]} 13. Nxc6 {[%clk 0:12:39.9]} 13... bxc6 {[%clk 0:12:38.8]} 14. Qxc6+ {[%clk 0:12:28.4]} 14... Ke7 {[%clk 0:12:31.7]} 15. Bxa6 {[%clk 0:12:21.1]} 15... Bxh1 {[%clk 0:12:28.8]} 16. Bd6+ {[%clk 0:12:12.1]} 16... Qxd6 {[%clk 0:12:26.7]} 17. Qc4 {[%clk 0:12:16.2]} 17... Rxa6 {[%clk 0:12:28.7]} 18. Qc8 {[%clk 0:12:16.1]} 18... Rxa2 {[%clk 0:11:16.9]} 19. Ne2 {[%clk 0:11:59.4]} 19... Bf3 {[%clk 0:10:45.6]} 20. Nc3 {[%clk 0:11:56.4]} 20... Bxd1 {[%clk 0:10:48.1]} 21. Nxa2 {[%clk 0:12:04.6]} 21... Qxh2 {[%clk 0:10:16.4]} 22. Kxd1 {[%clk 0:12:02.2]} 22... d4 {[%clk 0:10:00.5]} 23. Nc3 {[%clk 0:12:07.4]} 23... Kf6 {[%clk 0:09:45.8]} 24. Nd5+ {[%clk 0:12:14.6]} 24... Ke5 {[%clk 0:09:32.5]} 25. Qd7 {[%clk 0:11:45.7]} 25... Bb4 {[%clk 0:09:03.6]} 26. Qd6+ {[%clk 0:11:48.1]} 26... Kxd6 {[%clk 0:09:07.9]} 27. c3 {[%clk 0:11:50.1]} 27... Ba5 {[%clk 0:09:05.5]} 28. b4 {[%clk 0:11:56]} 28... Bd8 {[%clk 0:09:04.9]} 29. b5 {[%clk 0:11:56.8]} 29... Kxd5 {[%clk 0:09:08.7]} 30. b6 {[%clk 0:12:06.6]} 30... Bxb6 {[%clk 0:09:16.9]} 31. c4+ {[%clk 0:12:11.7]} 31... Kxc4 {[%clk 0:09:24.5]} 32. Ke1 {[%clk 0:12:08.3]} 32... Re8+ {[%clk 0:09:26.4]} 33. Kf1 {[%clk 0:12:14.2]} 33... Re4 {[%clk 0:09:11.2]} 1/2-1/2\n",
+  "time_control": "900+10",
+  "end_time": 1741092757,
+  "rated": true,
+  "accuracies": {
+    "white": 33.5,
+    "black": 31.3
+  },
+  "tcn": "mC0Kbs!TlBKBsHTCcD5OdBZJec2MHW6EnvENoENUByYQvCUCWQXQyQ80fOChDR7RQA4OA6OigmhvmsvdsiRpcdJBis0TsJTK6Z9zZRKRkszGjzG7zHRJHP7PsAJAde?8ef8C",
+  "uuid": "cbff285d-f8f4-11ef-ba0a-34f9a201000f",
+  "initial_setup": "",
+  "fen": "8/5p1p/1b6/6p1/2kpr1P1/8/7q/5K2 w - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 399,
+    "result": "stalemate",
+    "@id": "https://api.chess.com/pub/player/bayrondrian_medina",
+    "username": "BayronDrian_Medina",
+    "uuid": "799fca9e-a226-11ef-993d-757259de1c2d"
+  },
+  "black": {
+    "rating": 370,
+    "result": "stalemate",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Vienna-Game-Falkbeer-Variation-3.d4-exd4"
+}

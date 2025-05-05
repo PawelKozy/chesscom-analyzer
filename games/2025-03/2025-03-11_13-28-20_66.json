@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136143604400",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.11\"]\n[Round \"-\"]\n[White \"imsuva\"]\n[Black \"pawelkozy\"]\n[Result \"1-0\"]\n[CurrentPosition \"rnbqkb1r/pppp1Qpp/8/2n1p3/2B5/7N/PPPP1PPP/RNB1K2R b KQkq -\"]\n[Timezone \"UTC\"]\n[ECO \"C24\"]\n[ECOUrl \"https://www.chess.com/openings/Bishops-Opening-Berlin-Defense\"]\n[UTCDate \"2025.03.11\"]\n[UTCTime \"12:25:53\"]\n[WhiteElo \"405\"]\n[BlackElo \"405\"]\n[TimeControl \"900+10\"]\n[Termination \"imsuva won by checkmate\"]\n[StartTime \"12:25:53\"]\n[EndDate \"2025.03.11\"]\n[EndTime \"12:28:20\"]\n[Link \"https://www.chess.com/game/live/136143604400\"]\n\n1. e4 {[%clk 0:15:04.8]} 1... e5 {[%clk 0:15:08.9]} 2. Bc4 {[%clk 0:15:04]} 2... Nf6 {[%clk 0:15:02.1]} 3. Nh3 {[%clk 0:14:14.5]} 3... Nxe4 {[%clk 0:15:00]} 4. Qf3 {[%clk 0:14:19.7]} 4... Nc5 {[%clk 0:14:43.2]} 5. Qxf7# {[%clk 0:14:26.5]} 1-0\n",
+  "time_control": "900+10",
+  "end_time": 1741696100,
+  "rated": true,
+  "accuracies": {
+    "white": 64.8,
+    "black": 50
+  },
+  "tcn": "mC0KfA!TgxTCdvCIv1",
+  "uuid": "f97b0e50-fe73-11ef-95ff-f0b4b801000f",
+  "initial_setup": "",
+  "fen": "rnbqkb1r/pppp1Qpp/8/2n1p3/2B5/7N/PPPP1PPP/RNB1K2R b KQkq -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 405,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/imsuva",
+    "username": "imsuva",
+    "uuid": "82d91e04-6026-11ef-91c8-756378f54187"
+  },
+  "black": {
+    "rating": 405,
+    "result": "checkmated",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Bishops-Opening-Berlin-Defense"
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136746879764",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.27\"]\n[Round \"-\"]\n[White \"pawelkozy\"]\n[Black \"Bycarpentier\"]\n[Result \"0-1\"]\n[CurrentPosition \"5r2/p7/1p2k3/1b2p2p/1P3pp1/7P/P4K2/3R4 b - -\"]\n[Timezone \"UTC\"]\n[ECO \"C62\"]\n[ECOUrl \"https://www.chess.com/openings/Ruy-Lopez-Opening-Old-Steinitz-Defense-4.d4-exd4-5.Nxd4-Bd7-6.Nc3\"]\n[UTCDate \"2025.03.27\"]\n[UTCTime \"22:19:32\"]\n[WhiteElo \"452\"]\n[BlackElo \"608\"]\n[TimeControl \"900+10\"]\n[Termination \"Bycarpentier won by resignation\"]\n[StartTime \"22:19:32\"]\n[EndDate \"2025.03.27\"]\n[EndTime \"22:43:31\"]\n[Link \"https://www.chess.com/game/live/136746879764\"]\n\n1. e4 {[%clk 0:15:07.2]} 1... e5 {[%clk 0:15:07.6]} 2. Nf3 {[%clk 0:15:16.1]} 2... Nc6 {[%clk 0:15:14.7]} 3. Nc3 {[%clk 0:15:24.9]} 3... d6 {[%clk 0:15:08.1]} 4. Bb5 {[%clk 0:15:19.4]} 4... Bd7 {[%clk 0:15:01.1]} 5. d4 {[%clk 0:14:55.5]} 5... exd4 {[%clk 0:15:00.7]} 6. Nxd4 {[%clk 0:15:02.7]} 6... Nxd4 {[%clk 0:15:05.4]} 7. Qxd4 {[%clk 0:15:02.7]} 7... Qe7 {[%clk 0:14:46.5]} 8. Nd5 {[%clk 0:14:59.3]} 8... Qe5 {[%clk 0:14:04.9]} 9. Qxe5+ {[%clk 0:13:50.6]} 9... dxe5 {[%clk 0:14:05.8]} 10. Nxc7+ {[%clk 0:13:58]} 10... Ke7 {[%clk 0:14:06.1]} 11. Nxa8 {[%clk 0:14:01.9]} 11... Bxb5 {[%clk 0:14:12.4]} 12. Nc7 {[%clk 0:13:43.4]} 12... Bc6 {[%clk 0:14:00.9]} 13. O-O {[%clk 0:13:23.9]} 13... Kd7 {[%clk 0:14:06.5]} 14. Rd1+ {[%clk 0:13:11]} 14... Kxc7 {[%clk 0:14:14]} 15. c4 {[%clk 0:13:00.6]} 15... Bxe4 {[%clk 0:14:13.9]} 16. f3 {[%clk 0:12:44.1]} 16... Bc6 {[%clk 0:14:06.9]} 17. c5 {[%clk 0:12:28.6]} 17... Bxc5+ {[%clk 0:14:12.9]} 18. Kf1 {[%clk 0:12:33.5]} 18... Ne7 {[%clk 0:14:08.4]} 19. Bg5 {[%clk 0:12:35.1]} 19... Nd5 {[%clk 0:13:49]} 20. Rac1 {[%clk 0:12:34.2]} 20... b6 {[%clk 0:13:52.2]} 21. f4 {[%clk 0:12:13.4]} 21... f6 {[%clk 0:13:34]} 22. Bh4 {[%clk 0:12:04.8]} 22... Ne3+ {[%clk 0:13:00.8]} 23. Ke2 {[%clk 0:12:02.8]} 23... Nxd1 {[%clk 0:13:08.3]} 24. Rxd1 {[%clk 0:12:05.3]} 24... Bxg2 {[%clk 0:12:56.7]} 25. Be1 {[%clk 0:11:53.9]} 25... exf4 {[%clk 0:12:44.4]} 26. b4 {[%clk 0:11:50.4]} 26... Bd6 {[%clk 0:12:32]} 27. Kf2 {[%clk 0:11:42.8]} 27... Bc6 {[%clk 0:12:16.8]} 28. Ke2 {[%clk 0:11:17.8]} 28... h5 {[%clk 0:12:07.9]} 29. Rc1 {[%clk 0:10:46]} 29... Kd7 {[%clk 0:12:06.1]} 30. Kf1 {[%clk 0:10:16.5]} 30... g5 {[%clk 0:12:08.6]} 31. Bc3 {[%clk 0:10:12.2]} 31... Rf8 {[%clk 0:11:45.6]} 32. Ke2 {[%clk 0:09:55.7]} 32... g4 {[%clk 0:11:24.4]} 33. Rb1 {[%clk 0:09:34.5]} 33... Bb5+ {[%clk 0:11:16.7]} 34. Kf2 {[%clk 0:09:34.7]} 34... Be5 {[%clk 0:11:14.6]} 35. Rd1+ {[%clk 0:09:31.7]} 35... Ke6 {[%clk 0:11:18.3]} 36. Bxe5 {[%clk 0:07:52.3]} 36... fxe5 {[%clk 0:11:16.6]} 37. h3 {[%clk 0:07:47.1]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1743115411,
+  "rated": true,
+  "accuracies": {
+    "white": 80.1,
+    "black": 85.7
+  },
+  "tcn": "mC0Kgv5QbsZRfH6ZlBKBvBQBdB70sJ0KBKRKJY80Y4ZH4YHQeg0ZfdZYkAQCnvCQAI9Igf!0cM0JacXPvD1TMFJufmudcdQoFeKDjzIRmnoQnm3NdcYZmf2Mes?9fmMEcbQHmnRKbdZSsKTKpx",
+  "uuid": "8f09bc71-0b59-11f0-9fbb-8dab2e01000f",
+  "initial_setup": "",
+  "fen": "5r2/p7/1p2k3/1b2p2p/1P3pp1/7P/P4K2/3R4 b - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 452,
+    "result": "resigned",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "black": {
+    "rating": 608,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/bycarpentier",
+    "username": "Bycarpentier",
+    "uuid": "356f6d0a-15ca-11e9-8046-000000000000"
+  },
+  "eco": "https://www.chess.com/openings/Ruy-Lopez-Opening-Old-Steinitz-Defense-4.d4-exd4-5.Nxd4-Bd7-6.Nc3"
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136763161732",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.28\"]\n[Round \"-\"]\n[White \"pawelkozy\"]\n[Black \"ilanvainbaum\"]\n[Result \"0-1\"]\n[CurrentPosition \"r1b2r1k/ppp1Nppp/3p1n2/2b1p1B1/2BnP3/3P1N2/PPP2PPP/R2Q1RK1 w - -\"]\n[Timezone \"UTC\"]\n[ECO \"C50\"]\n[ECOUrl \"https://www.chess.com/openings/Giuoco-Piano-Game-4.O-O-Nf6-5.Nc3-d6\"]\n[UTCDate \"2025.03.28\"]\n[UTCTime \"11:34:26\"]\n[WhiteElo \"444\"]\n[BlackElo \"449\"]\n[TimeControl \"900+10\"]\n[Termination \"ilanvainbaum won - game abandoned\"]\n[StartTime \"11:34:26\"]\n[EndDate \"2025.03.28\"]\n[EndTime \"11:42:57\"]\n[Link \"https://www.chess.com/game/live/136763161732\"]\n\n1. e4 {[%clk 0:15:09.9]} 1... e5 {[%clk 0:15:08.6]} 2. Nf3 {[%clk 0:15:17]} 2... Nc6 {[%clk 0:15:16.4]} 3. Nc3 {[%clk 0:15:23.5]} 3... Nf6 {[%clk 0:15:24.6]} 4. Bc4 {[%clk 0:15:29.6]} 4... Bc5 {[%clk 0:15:30.6]} 5. O-O {[%clk 0:15:29]} 5... d6 {[%clk 0:15:39.5]} 6. d3 {[%clk 0:15:36.2]} 6... O-O {[%clk 0:15:48.3]} 7. Bg5 {[%clk 0:15:37.5]} 7... Qe7 {[%clk 0:15:35]} 8. Nd5 {[%clk 0:15:17]} 8... Nd4 {[%clk 0:14:31.8]} 9. Nxe7+ {[%clk 0:14:51.7]} 9... Kh8 {[%clk 0:14:33]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1743162177,
+  "rated": true,
+  "accuracies": {
+    "white": 100,
+    "black": 65.8
+  },
+  "tcn": "mC0Kgv5Qbs!TfA9IegZRlt8!cM70sJQBJ0!?",
+  "uuid": "9ac82d49-0bc8-11f0-8ce6-035d3501000f",
+  "initial_setup": "",
+  "fen": "r1b2r1k/ppp1Nppp/3p1n2/2b1p1B1/2BnP3/3P1N2/PPP2PPP/R2Q1RK1 w - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 444,
+    "result": "abandoned",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "black": {
+    "rating": 449,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/ilanvainbaum",
+    "username": "ilanvainbaum",
+    "uuid": "91f67bc6-fe68-11ef-8ddf-132634932d91"
+  },
+  "eco": "https://www.chess.com/openings/Giuoco-Piano-Game-4.O-O-Nf6-5.Nc3-d6"
+}

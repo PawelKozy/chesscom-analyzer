@@ -1,0 +1,21 @@
+{
+  "total_games": 14,
+  "opponents": {
+    "Patrickaugustegaston": 1,
+    "pawelkozy": 8,
+    "babkajga": 1,
+    "NvyP": 1,
+    "AssemCUFE": 1,
+    "kolikko2": 1,
+    "klappar": 1
+  },
+  "results": {
+    "checkmated": 3,
+    "win": 9,
+    "repetition": 1,
+    "resigned": 1
+  },
+  "time_controls": {
+    "900+10": 14
+  }
+}

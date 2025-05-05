@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136069119082",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.09\"]\n[Round \"-\"]\n[White \"ozanblm\"]\n[Black \"pawelkozy\"]\n[Result \"1-0\"]\n[CurrentPosition \"6R1/ppp4p/7k/2b2pQ1/2Br1n2/1PN3P1/P1P2P1P/6K1 b - -\"]\n[Timezone \"UTC\"]\n[ECO \"C28\"]\n[ECOUrl \"https://www.chess.com/openings/Bishops-Opening-Berlin-Vienna-Hybrid-Variation-4...Bc5-5.Nf3\"]\n[UTCDate \"2025.03.09\"]\n[UTCTime \"10:01:43\"]\n[WhiteElo \"437\"]\n[BlackElo \"416\"]\n[TimeControl \"900+10\"]\n[Termination \"ozanblm won by checkmate\"]\n[StartTime \"10:01:43\"]\n[EndDate \"2025.03.09\"]\n[EndTime \"10:29:18\"]\n[Link \"https://www.chess.com/game/live/136069119082\"]\n\n1. e4 {[%clk 0:15:09.1]} 1... e5 {[%clk 0:15:08.9]} 2. Nf3 {[%clk 0:15:16]} 2... Nc6 {[%clk 0:15:14.9]} 3. Nc3 {[%clk 0:15:22.7]} 3... Nf6 {[%clk 0:15:23.7]} 4. Bc4 {[%clk 0:15:22]} 4... Bc5 {[%clk 0:15:29.1]} 5. d3 {[%clk 0:15:21.2]} 5... Ng4 {[%clk 0:14:44.7]} 6. O-O {[%clk 0:15:09.6]} 6... O-O {[%clk 0:14:39.1]} 7. Bg5 {[%clk 0:15:02.8]} 7... Ne7 {[%clk 0:13:42.1]} 8. d4 {[%clk 0:14:06.2]} 8... exd4 {[%clk 0:12:53.6]} 9. Nxd4 {[%clk 0:14:09]} 9... d5 {[%clk 0:12:29.5]} 10. exd5 {[%clk 0:13:03.3]} 10... f6 {[%clk 0:11:48.1]} 11. Bf4 {[%clk 0:12:05.9]} 11... Ng6 {[%clk 0:11:04.8]} 12. Ne6 {[%clk 0:11:15.8]} 12... Bxe6 {[%clk 0:10:38.1]} 13. dxe6 {[%clk 0:11:06.6]} 13... Nxf4 {[%clk 0:08:56.1]} 14. e7+ {[%clk 0:10:55.2]} 14... Kh8 {[%clk 0:07:20.2]} 15. exd8=Q {[%clk 0:10:52.5]} 15... Raxd8 {[%clk 0:07:23.7]} 16. Qxg4 {[%clk 0:10:46.1]} 16... Rd4 {[%clk 0:06:41.1]} 17. b3 {[%clk 0:09:19.8]} 17... Re8 {[%clk 0:06:21.2]} 18. Rfe1 {[%clk 0:09:15.3]} 18... Rxe1+ {[%clk 0:05:44.4]} 19. Rxe1 {[%clk 0:09:19.7]} 19... g5 {[%clk 0:05:03.6]} 20. Re8+ {[%clk 0:08:57.8]} 20... Kg7 {[%clk 0:05:00.5]} 21. Rg8+ {[%clk 0:08:39.9]} 21... Kh6 {[%clk 0:04:55.2]} 22. g3 {[%clk 0:06:52.4]} 22... f5 {[%clk 0:03:19.8]} 23. Qxg5# {[%clk 0:06:42.7]} 1-0\n",
+  "time_control": "900+10",
+  "end_time": 1741516158,
+  "rated": true,
+  "accuracies": {
+    "white": 85.1,
+    "black": 67
+  },
+  "tcn": "mC0Kgv5Qbs!TfA9IltTEeg8!cMQ0tBKBvBZJCJ1TMD0UBS6SJSUDS0!?0{47dE7Bjr98fe8eae2Me8?28!2VowTLEM",
+  "uuid": "81460750-fccd-11ef-98f2-8bcf2701000f",
+  "initial_setup": "",
+  "fen": "6R1/ppp4p/7k/2b2pQ1/2Br1n2/1PN3P1/P1P2P1P/6K1 b - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 437,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/ozanblm",
+    "username": "ozanblm",
+    "uuid": "8a11901c-c4db-11ed-8c75-7b0010ef1f79"
+  },
+  "black": {
+    "rating": 416,
+    "result": "checkmated",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Bishops-Opening-Berlin-Vienna-Hybrid-Variation-4...Bc5-5.Nf3"
+}

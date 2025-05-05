@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136017257434",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.07\"]\n[Round \"-\"]\n[White \"pawelkozy\"]\n[Black \"rosh8488\"]\n[Result \"1-0\"]\n[CurrentPosition \"r1b5/ppp4p/4k1p1/3pP2n/3Q4/P7/2P3PP/R3K2R b KQ -\"]\n[Timezone \"UTC\"]\n[ECO \"C50\"]\n[ECOUrl \"https://www.chess.com/openings/Giuoco-Piano-Game-Four-Knights-Game\"]\n[UTCDate \"2025.03.07\"]\n[UTCTime \"20:50:45\"]\n[WhiteElo \"426\"]\n[BlackElo \"434\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won by resignation\"]\n[StartTime \"20:50:45\"]\n[EndDate \"2025.03.07\"]\n[EndTime \"21:02:38\"]\n[Link \"https://www.chess.com/game/live/136017257434\"]\n\n1. e4 {[%clk 0:15:09.4]} 1... e5 {[%clk 0:15:08.1]} 2. Nf3 {[%clk 0:15:14.4]} 2... Nc6 {[%clk 0:15:16]} 3. Nc3 {[%clk 0:15:21]} 3... Bc5 {[%clk 0:15:21]} 4. Bc4 {[%clk 0:15:15.8]} 4... Nf6 {[%clk 0:15:27.6]} 5. Ng5 {[%clk 0:14:24]} 5... O-O {[%clk 0:15:31.9]} 6. Bxf7+ {[%clk 0:14:13.3]} 6... Rxf7 {[%clk 0:15:39.4]} 7. Nxf7 {[%clk 0:14:21.8]} 7... Kxf7 {[%clk 0:15:47.8]} 8. d3 {[%clk 0:13:38.1]} 8... g6 {[%clk 0:15:48.3]} 9. f3 {[%clk 0:13:29.1]} 9... Nd4 {[%clk 0:15:49.1]} 10. Be3 {[%clk 0:13:01]} 10... Bb4 {[%clk 0:14:46.1]} 11. a3 {[%clk 0:12:36.7]} 11... Bxc3+ {[%clk 0:14:17.6]} 12. bxc3 {[%clk 0:12:41.8]} 12... Nc6 {[%clk 0:14:23.2]} 13. d4 {[%clk 0:12:27.4]} 13... exd4 {[%clk 0:14:28]} 14. cxd4 {[%clk 0:12:36]} 14... d5 {[%clk 0:14:29.8]} 15. e5 {[%clk 0:12:27.3]} 15... Nh5 {[%clk 0:14:23.8]} 16. f4 {[%clk 0:12:12.8]} 16... Qh4+ {[%clk 0:14:14.1]} 17. Bf2 {[%clk 0:12:12.9]} 17... Qxf4 {[%clk 0:14:13.2]} 18. Qe2 {[%clk 0:11:52.1]} 18... Nxd4 {[%clk 0:13:53.3]} 19. Bxd4 {[%clk 0:11:45.3]} 19... Qxd4 {[%clk 0:14:01.3]} 20. Qf2+ {[%clk 0:11:15.5]} 20... Ke6 {[%clk 0:14:07.8]} 21. Qxd4 {[%clk 0:11:23.2]} 1-0\n",
+  "time_control": "900+10",
+  "end_time": 1741381358,
+  "rated": true,
+  "accuracies": {
+    "white": 64.6,
+    "black": 65.2
+  },
+  "tcn": "mC0Kgv5Qbs9IfA!TvM8!A191M1!1lt2UnvQBcuIziqzsjsBQtBKBsBZJCKTNvD7FunFDdmQBnBDBmn1SnB",
+  "uuid": "d72b4278-fb95-11ef-ba3e-a318ff01000f",
+  "initial_setup": "",
+  "fen": "r1b5/ppp4p/4k1p1/3pP2n/3Q4/P7/2P3PP/R3K2R b KQ -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 426,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "black": {
+    "rating": 434,
+    "result": "resigned",
+    "@id": "https://api.chess.com/pub/player/rosh8488",
+    "username": "rosh8488",
+    "uuid": "b4f61082-c033-11ef-83fc-2fcd0b1fb323"
+  },
+  "eco": "https://www.chess.com/openings/Giuoco-Piano-Game-Four-Knights-Game"
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136813712490",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.29\"]\n[Round \"-\"]\n[White \"pawelkozy\"]\n[Black \"felip_ribeiro\"]\n[Result \"1-0\"]\n[CurrentPosition \"8/p7/Bp3p1R/3p1p1k/3P1B2/5PP1/PP5P/6K1 b - -\"]\n[Timezone \"UTC\"]\n[ECO \"C40\"]\n[ECOUrl \"https://www.chess.com/openings/Kings-Pawn-Opening-Kings-Knight-Variation\"]\n[UTCDate \"2025.03.29\"]\n[UTCTime \"19:30:34\"]\n[WhiteElo \"497\"]\n[BlackElo \"491\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won by checkmate\"]\n[StartTime \"19:30:34\"]\n[EndDate \"2025.03.29\"]\n[EndTime \"19:42:21\"]\n[Link \"https://www.chess.com/game/live/136813712490\"]\n\n1. e4 {[%clk 0:15:09.9]} 1... e5 {[%clk 0:15:08.1]} 2. Nf3 {[%clk 0:15:16.9]} 2... Bd6 {[%clk 0:15:16.2]} 3. d4 {[%clk 0:15:17.8]} 3... exd4 {[%clk 0:15:18.5]} 4. Nxd4 {[%clk 0:15:25.5]} 4... Nf6 {[%clk 0:15:27.3]} 5. f3 {[%clk 0:15:22.2]} 5... O-O {[%clk 0:15:35.7]} 6. Bc4 {[%clk 0:15:22.2]} 6... Qe7 {[%clk 0:15:38.6]} 7. Nc3 {[%clk 0:15:28.2]} 7... Bb4 {[%clk 0:15:46.3]} 8. O-O {[%clk 0:15:24.7]} 8... Nc6 {[%clk 0:15:54.1]} 9. Nd5 {[%clk 0:14:48.3]} 9... Nxd4 {[%clk 0:16:01.2]} 10. Nxe7+ {[%clk 0:14:44.9]} 10... Kh8 {[%clk 0:16:05.5]} 11. Nxc8 {[%clk 0:14:44.2]} 11... Raxc8 {[%clk 0:16:11.5]} 12. Qxd4 {[%clk 0:14:40.6]} 12... b6 {[%clk 0:16:13.7]} 13. c3 {[%clk 0:14:29.9]} 13... Bc5 {[%clk 0:16:20.4]} 14. e5 {[%clk 0:13:41.1]} 14... Bxd4+ {[%clk 0:16:26.5]} 15. cxd4 {[%clk 0:13:49.7]} 15... d5 {[%clk 0:16:04.7]} 16. Ba6 {[%clk 0:13:43.4]} 16... Rce8 {[%clk 0:15:37.5]} 17. exf6 {[%clk 0:13:45.5]} 17... gxf6 {[%clk 0:15:45.3]} 18. Bh6 {[%clk 0:13:17.1]} 18... Rg8 {[%clk 0:15:50.8]} 19. Rae1 {[%clk 0:12:47.7]} 19... Rxe1 {[%clk 0:15:54.4]} 20. Rxe1 {[%clk 0:12:55.9]} 20... Rg6 {[%clk 0:16:02.8]} 21. Re8+ {[%clk 0:12:57.6]} 21... Rg8 {[%clk 0:16:09.3]} 22. Re7 {[%clk 0:12:15.8]} 22... Rg6 {[%clk 0:16:00.6]} 23. Bf4 {[%clk 0:12:10.2]} 23... Kg7 {[%clk 0:16:02.9]} 24. Rxc7 {[%clk 0:12:08.4]} 24... f5 {[%clk 0:16:06.8]} 25. Be5+ {[%clk 0:11:49.6]} 25... Kh6 {[%clk 0:16:12.3]} 26. g3 {[%clk 0:11:35]} 26... f6 {[%clk 0:16:15.3]} 27. Bf4+ {[%clk 0:11:31.7]} 27... Kh5 {[%clk 0:16:20.5]} 28. Rxh7+ {[%clk 0:11:33.1]} 28... Rh6 {[%clk 0:16:23.9]} 29. Rxh6# {[%clk 0:11:37.5]} 1-0\n",
+  "time_control": "900+10",
+  "end_time": 1743277341,
+  "rated": true,
+  "accuracies": {
+    "white": 86.6,
+    "black": 69.8
+  },
+  "tcn": "mC0Kgv9RlBKBvB!Tnv8!fA70bsRzeg5QsJQBJ0!?0646dBXPkszICKIBsBZJAO68KT2TcV9!ae8efe!Ue8U!80!UVD?20YTLDK2Vow1TKDVNY3UV3V",
+  "uuid": "492a6350-0cd4-11f0-86fc-5f149301000f",
+  "initial_setup": "",
+  "fen": "8/p7/Bp3p1R/3p1p1k/3P1B2/5PP1/PP5P/6K1 b - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 497,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "black": {
+    "rating": 491,
+    "result": "checkmated",
+    "@id": "https://api.chess.com/pub/player/felip_ribeiro",
+    "username": "felip_ribeiro",
+    "uuid": "f42c61e8-33cc-11ed-bee8-5b088fe062fe"
+  },
+  "eco": "https://www.chess.com/openings/Kings-Pawn-Opening-Kings-Knight-Variation"
+}

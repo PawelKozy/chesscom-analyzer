@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136724445972",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.27\"]\n[Round \"-\"]\n[White \"pawelkozy\"]\n[Black \"mirwais4203\"]\n[Result \"0-1\"]\n[CurrentPosition \"r4rk1/pp3ppp/8/2p2N2/2BpP1Pq/P2P4/2P1nPP1/1R3RK1 w - -\"]\n[Timezone \"UTC\"]\n[ECO \"C50\"]\n[ECOUrl \"https://www.chess.com/openings/Giuoco-Piano-Game-Four-Knights-Game-5.O-O\"]\n[UTCDate \"2025.03.27\"]\n[UTCTime \"10:11:57\"]\n[WhiteElo \"433\"]\n[BlackElo \"469\"]\n[TimeControl \"900+10\"]\n[Termination \"mirwais4203 won by checkmate\"]\n[StartTime \"10:11:57\"]\n[EndDate \"2025.03.27\"]\n[EndTime \"10:21:40\"]\n[Link \"https://www.chess.com/game/live/136724445972\"]\n\n1. e4 {[%clk 0:15:09.8]} 1... e5 {[%clk 0:15:07.6]} 2. Nf3 {[%clk 0:15:18.5]} 2... Nc6 {[%clk 0:15:14.3]} 3. Bc4 {[%clk 0:15:21]} 3... Nf6 {[%clk 0:15:17.7]} 4. Nc3 {[%clk 0:15:27.4]} 4... Bc5 {[%clk 0:15:23.1]} 5. O-O {[%clk 0:15:29.4]} 5... O-O {[%clk 0:15:30.7]} 6. d3 {[%clk 0:15:32.1]} 6... d6 {[%clk 0:15:29.1]} 7. h3 {[%clk 0:15:37]} 7... Nb4 {[%clk 0:15:23.9]} 8. Bg5 {[%clk 0:15:11.9]} 8... c6 {[%clk 0:15:27.7]} 9. Bxf6 {[%clk 0:14:47.5]} 9... Qxf6 {[%clk 0:15:32.3]} 10. a3 {[%clk 0:14:32.5]} 10... Na6 {[%clk 0:15:06.2]} 11. b4 {[%clk 0:14:01.3]} 11... Bd4 {[%clk 0:15:07.9]} 12. Nxd4 {[%clk 0:13:55.6]} 12... exd4 {[%clk 0:15:14.3]} 13. Ne2 {[%clk 0:13:49.8]} 13... c5 {[%clk 0:15:19.4]} 14. bxc5 {[%clk 0:13:42.5]} 14... dxc5 {[%clk 0:15:25.1]} 15. Rb1 {[%clk 0:13:23.3]} 15... Nc7 {[%clk 0:15:20.8]} 16. Ng3 {[%clk 0:12:56.3]} 16... Ne6 {[%clk 0:15:02.7]} 17. Qe2 {[%clk 0:12:30.5]} 17... Nf4 {[%clk 0:15:03.9]} 18. Qg4 {[%clk 0:12:12.7]} 18... Bxg4 {[%clk 0:14:51.5]} 19. hxg4 {[%clk 0:12:20.8]} 19... Qh4 {[%clk 0:14:44.4]} 20. Nf5 {[%clk 0:12:24]} 20... Ne2# {[%clk 0:14:41.5]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1743070900,
+  "rated": true,
+  "accuracies": {
+    "white": 63.6,
+    "black": 80.4
+  },
+  "tcn": "mC0Kgv5QfA!Tbs9Ieg8!ltZRpxQzcMYQMT7TiqzOjzIBvBKBsmQIzIRIabOYmwYSdmSDmE6ExETFwLDm",
+  "uuid": "ea311100-0af3-11f0-99bc-0fd3ef01000f",
+  "initial_setup": "",
+  "fen": "r4rk1/pp3ppp/8/2p2N2/2BpP1Pq/P2P4/2P1nPP1/1R3RK1 w - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 433,
+    "result": "checkmated",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "black": {
+    "rating": 469,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/mirwais4203",
+    "username": "mirwais4203",
+    "uuid": "39ff673c-40e3-11e9-b07b-ab49aaec6519"
+  },
+  "eco": "https://www.chess.com/openings/Giuoco-Piano-Game-Four-Knights-Game-5.O-O"
+}

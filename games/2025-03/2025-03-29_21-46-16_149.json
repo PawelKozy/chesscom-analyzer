@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136815449210",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.29\"]\n[Round \"-\"]\n[White \"pawelkozy\"]\n[Black \"Jan909\"]\n[Result \"1-0\"]\n[CurrentPosition \"1r2k1r1/1bp4N/p1p1pBpb/3nP3/N2P4/5Q2/PP3PPP/R4RK1 b - -\"]\n[Timezone \"UTC\"]\n[ECO \"B00\"]\n[ECOUrl \"https://www.chess.com/openings/Nimzowitsch-Defense-2.d4-e6-3.Nf3-d5-4.e5\"]\n[UTCDate \"2025.03.29\"]\n[UTCTime \"20:31:05\"]\n[WhiteElo \"503\"]\n[BlackElo \"409\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won by resignation\"]\n[StartTime \"20:31:05\"]\n[EndDate \"2025.03.29\"]\n[EndTime \"20:46:16\"]\n[Link \"https://www.chess.com/game/live/136815449210\"]\n\n1. e4 {[%clk 0:15:08.8]} 1... e6 {[%clk 0:15:05.8]} 2. d4 {[%clk 0:15:13.3]} 2... d5 {[%clk 0:15:05.5]} 3. e5 {[%clk 0:15:19.1]} 3... Nc6 {[%clk 0:15:09.5]} 4. Nf3 {[%clk 0:15:26.3]} 4... Nge7 {[%clk 0:15:08.4]} 5. Nc3 {[%clk 0:15:09.9]} 5... Nf5 {[%clk 0:15:10.6]} 6. Bg5 {[%clk 0:15:10.7]} 6... f6 {[%clk 0:15:08.9]} 7. Bf4 {[%clk 0:15:11.3]} 7... fxe5 {[%clk 0:14:47.3]} 8. dxe5 {[%clk 0:15:01.8]} 8... g6 {[%clk 0:14:27.4]} 9. Bb5 {[%clk 0:14:40.8]} 9... a6 {[%clk 0:14:12.6]} 10. Bxc6+ {[%clk 0:14:38.6]} 10... bxc6 {[%clk 0:14:19.6]} 11. Bg5 {[%clk 0:14:34.5]} 11... Ne7 {[%clk 0:14:02.3]} 12. Bf6 {[%clk 0:14:21.4]} 12... Rg8 {[%clk 0:14:01.5]} 13. Ng5 {[%clk 0:14:12.8]} 13... d4 {[%clk 0:12:34.6]} 14. Nce4 {[%clk 0:13:53.4]} 14... Qd5 {[%clk 0:12:39.8]} 15. Qf3 {[%clk 0:13:22.7]} 15... Qa5+ {[%clk 0:12:46.1]} 16. c3 {[%clk 0:13:24.1]} 16... Nd5 {[%clk 0:12:29.1]} 17. Nxh7 {[%clk 0:12:15.8]} 17... Bh6 {[%clk 0:12:31.4]} 18. O-O {[%clk 0:12:25.5]} 18... Bb7 {[%clk 0:11:51.3]} 19. cxd4 {[%clk 0:11:31.8]} 19... Qa4 {[%clk 0:11:13]} 20. Nc5 {[%clk 0:11:05.1]} 20... Rb8 {[%clk 0:10:44]} 21. Nxa4 {[%clk 0:11:03.2]} 1-0\n",
+  "time_control": "900+10",
+  "end_time": 1743281176,
+  "rated": true,
+  "accuracies": {
+    "white": 78.2,
+    "black": 61.6
+  },
+  "tcn": "mC0SlBZJCK5Qgv!0bs0LcM1TMDTKBK2UfHWOHQXQDML0MT?!vMJBsC7JdvJGks0JM39Veg6XsBGyCI45Iy",
+  "uuid": "bd45019e-0cdc-11f0-8bb9-5e214901000f",
+  "initial_setup": "",
+  "fen": "1r2k1r1/1bp4N/p1p1pBpb/3nP3/N2P4/5Q2/PP3PPP/R4RK1 b - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 503,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "black": {
+    "rating": 409,
+    "result": "resigned",
+    "@id": "https://api.chess.com/pub/player/jan909",
+    "username": "Jan909",
+    "uuid": "b9a55266-2c29-11eb-b455-03bbabefba87"
+  },
+  "eco": "https://www.chess.com/openings/Nimzowitsch-Defense-2.d4-e6-3.Nf3-d5-4.e5"
+}

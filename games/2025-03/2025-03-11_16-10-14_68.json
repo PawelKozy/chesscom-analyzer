@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136148417168",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.11\"]\n[Round \"-\"]\n[White \"pawelkozy\"]\n[Black \"MAROLE123\"]\n[Result \"1-0\"]\n[CurrentPosition \"r1bq1rk1/p1pp1p1Q/1p2p1p1/4P1N1/3n4/2N4P/PPP3P1/R3KB1R b KQ -\"]\n[Timezone \"UTC\"]\n[ECO \"B00\"]\n[ECOUrl \"https://www.chess.com/openings/Nimzowitsch-Defense-French-Connection-Variation\"]\n[UTCDate \"2025.03.11\"]\n[UTCTime \"15:05:59\"]\n[WhiteElo \"405\"]\n[BlackElo \"392\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won by checkmate\"]\n[StartTime \"15:05:59\"]\n[EndDate \"2025.03.11\"]\n[EndTime \"15:10:14\"]\n[Link \"https://www.chess.com/game/live/136148417168\"]\n\n1. e4 {[%clk 0:15:09.9]} 1... Nc6 {[%clk 0:15:06.8]} 2. Nc3 {[%clk 0:15:13.1]} 2... e6 {[%clk 0:15:11.9]} 3. Nf3 {[%clk 0:15:15.4]} 3... Nf6 {[%clk 0:15:19.1]} 4. d4 {[%clk 0:15:23]} 4... b6 {[%clk 0:15:26.5]} 5. e5 {[%clk 0:15:26.7]} 5... Ng4 {[%clk 0:15:24]} 6. Qe2 {[%clk 0:14:24.6]} 6... g6 {[%clk 0:15:24.7]} 7. Bg5 {[%clk 0:14:26.9]} 7... Be7 {[%clk 0:15:28.5]} 8. h3 {[%clk 0:14:19.8]} 8... Bxg5 {[%clk 0:15:33.4]} 9. Nxg5 {[%clk 0:14:26.1]} 9... Nxf2 {[%clk 0:15:34.7]} 10. Qxf2 {[%clk 0:14:33.2]} 10... O-O {[%clk 0:15:41.4]} 11. Qh4 {[%clk 0:13:56.3]} 11... Nxd4 {[%clk 0:15:46]} 12. Qxh7# {[%clk 0:14:00.3]} 1-0\n",
+  "time_control": "900+10",
+  "end_time": 1741705814,
+  "rated": true,
+  "accuracies": {
+    "white": 55.1,
+    "black": 13.9
+  },
+  "tcn": "mC5Qbs0Sgv!TlBXPCKTEdm2UcM90px0MvMEnmn8!nFQBF3",
+  "uuid": "57553b09-fe8a-11ef-95ff-f0b4b801000f",
+  "initial_setup": "",
+  "fen": "r1bq1rk1/p1pp1p1Q/1p2p1p1/4P1N1/3n4/2N4P/PPP3P1/R3KB1R b KQ -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 405,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "black": {
+    "rating": 392,
+    "result": "checkmated",
+    "@id": "https://api.chess.com/pub/player/marole123",
+    "username": "MAROLE123",
+    "uuid": "d660ee2e-5bdc-11ef-b087-e1672f5debb5"
+  },
+  "eco": "https://www.chess.com/openings/Nimzowitsch-Defense-French-Connection-Variation"
+}

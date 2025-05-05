@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136672503180",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.25\"]\n[Round \"-\"]\n[White \"BlitzSavanna\"]\n[Black \"pawelkozy\"]\n[Result \"1-0\"]\n[CurrentPosition \"rn1R2k1/pp3ppp/2p5/4p3/8/2P1b2P/PP4P1/RN5K b - -\"]\n[Timezone \"UTC\"]\n[ECO \"B10\"]\n[ECOUrl \"https://www.chess.com/openings/Caro-Kann-Defense-Hillbilly-Attack-2...d5-3.Bb3\"]\n[UTCDate \"2025.03.25\"]\n[UTCTime \"21:44:59\"]\n[WhiteElo \"466\"]\n[BlackElo \"455\"]\n[TimeControl \"600\"]\n[Termination \"BlitzSavanna won by checkmate\"]\n[StartTime \"21:44:59\"]\n[EndDate \"2025.03.25\"]\n[EndTime \"21:55:15\"]\n[Link \"https://www.chess.com/game/live/136672503180\"]\n\n1. e4 {[%clk 0:09:57.6]} 1... c6 {[%clk 0:09:57.9]} 2. Bc4 {[%clk 0:09:54.2]} 2... d5 {[%clk 0:09:53.7]} 3. Bb3 {[%clk 0:09:50.6]} 3... Nf6 {[%clk 0:09:45.3]} 4. Qe2 {[%clk 0:09:49.1]} 4... Bg4 {[%clk 0:09:35.4]} 5. Nf3 {[%clk 0:09:44.3]} 5... e6 {[%clk 0:09:05.9]} 6. d3 {[%clk 0:09:32.4]} 6... Bd6 {[%clk 0:08:50.3]} 7. h3 {[%clk 0:09:29.9]} 7... Bxf3 {[%clk 0:08:43.6]} 8. Qxf3 {[%clk 0:09:27.8]} 8... e5 {[%clk 0:08:35.9]} 9. O-O {[%clk 0:09:22.9]} 9... O-O {[%clk 0:08:34]} 10. exd5 {[%clk 0:09:02.3]} 10... Nxd5 {[%clk 0:08:21]} 11. Bc4 {[%clk 0:08:42.4]} 11... Bc5 {[%clk 0:07:00.7]} 12. d4 {[%clk 0:08:21.4]} 12... Bxd4 {[%clk 0:06:52.1]} 13. Bd3 {[%clk 0:08:16]} 13... Nf4 {[%clk 0:06:09.1]} 14. c3 {[%clk 0:07:47.6]} 14... Bc5 {[%clk 0:05:48]} 15. Qe4 {[%clk 0:07:43.7]} 15... Nxd3 {[%clk 0:05:39.2]} 16. Rd1 {[%clk 0:07:36.3]} 16... Bxf2+ {[%clk 0:05:08.9]} 17. Kh1 {[%clk 0:07:29.8]} 17... Qb6 {[%clk 0:03:39.6]} 18. Qxd3 {[%clk 0:07:17.9]} 18... Rd8 {[%clk 0:03:26.6]} 19. Be3 {[%clk 0:07:00.7]} 19... Bxe3 {[%clk 0:03:15.6]} 20. Qxd8+ {[%clk 0:06:53.6]} 20... Qxd8 {[%clk 0:03:03.9]} 21. Rxd8# {[%clk 0:06:51.8]} 1-0\n",
+  "time_control": "600",
+  "end_time": 1742939715,
+  "rated": true,
+  "accuracies": {
+    "white": 42.8,
+    "black": 24.8
+  },
+  "tcn": "mCYQfAZJAr!Tdm6Egv0Slt9RpxEvmvSKeg8!CJTJrARItBIBAtJDksBIvCDtfdIngh7PCt97cunut7P7d7",
+  "uuid": "666ead88-09c2-11f0-82fa-f435fb01000f",
+  "initial_setup": "",
+  "fen": "rn1R2k1/pp3ppp/2p5/4p3/8/2P1b2P/PP4P1/RN5K b - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 466,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/blitzsavanna",
+    "username": "BlitzSavanna",
+    "uuid": "18379f10-10a4-11eb-b656-bf5690ae2a59"
+  },
+  "black": {
+    "rating": 455,
+    "result": "checkmated",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Caro-Kann-Defense-Hillbilly-Attack-2...d5-3.Bb3"
+}

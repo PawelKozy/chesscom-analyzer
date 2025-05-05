@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136799965004",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.29\"]\n[Round \"-\"]\n[White \"rienk1908\"]\n[Black \"pawelkozy\"]\n[Result \"0-1\"]\n[CurrentPosition \"r4r1k/p3q1pp/2n5/4p3/2B1N3/8/PPP2bPP/R3RK2 b - -\"]\n[Timezone \"UTC\"]\n[ECO \"B15\"]\n[ECOUrl \"https://www.chess.com/openings/Caro-Kann-Defense-Campomanes-Attack\"]\n[UTCDate \"2025.03.29\"]\n[UTCTime \"12:02:05\"]\n[WhiteElo \"451\"]\n[BlackElo \"482\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won by resignation\"]\n[StartTime \"12:02:05\"]\n[EndDate \"2025.03.29\"]\n[EndTime \"12:13:44\"]\n[Link \"https://www.chess.com/game/live/136799965004\"]\n\n1. e4 {[%clk 0:15:07.8]} 1... c6 {[%clk 0:15:08.2]} 2. d4 {[%clk 0:15:16.1]} 2... d5 {[%clk 0:15:17.3]} 3. Nc3 {[%clk 0:15:19.9]} 3... Nf6 {[%clk 0:15:18.6]} 4. Bd3 {[%clk 0:15:18.8]} 4... Bg4 {[%clk 0:15:21.1]} 5. Nf3 {[%clk 0:15:23.8]} 5... Bxf3 {[%clk 0:15:28.6]} 6. Qxf3 {[%clk 0:15:31.3]} 6... e5 {[%clk 0:15:30.8]} 7. dxe5 {[%clk 0:15:25.9]} 7... Nfd7 {[%clk 0:15:13.7]} 8. Bf4 {[%clk 0:15:24.2]} 8... Bb4 {[%clk 0:15:16]} 9. O-O {[%clk 0:15:20.5]} 9... Bc5 {[%clk 0:14:59]} 10. Na4 {[%clk 0:15:11]} 10... O-O {[%clk 0:14:35.8]} 11. Nc3 {[%clk 0:15:11.5]} 11... f6 {[%clk 0:13:54]} 12. exd5 {[%clk 0:15:02]} 12... Nxe5 {[%clk 0:13:25.6]} 13. Bxe5 {[%clk 0:15:06]} 13... fxe5 {[%clk 0:13:28.4]} 14. Qe4 {[%clk 0:14:50.4]} 14... Qg5 {[%clk 0:12:00.1]} 15. dxc6 {[%clk 0:14:45]} 15... bxc6 {[%clk 0:11:10]} 16. Qxc6 {[%clk 0:14:42.3]} 16... Nxc6 {[%clk 0:11:17.6]} 17. Ne4 {[%clk 0:14:40.4]} 17... Qe7 {[%clk 0:10:31.2]} 18. Bc4+ {[%clk 0:14:43.2]} 18... Kh8 {[%clk 0:10:33.3]} 19. Rfe1 {[%clk 0:14:38.6]} 19... Bxf2+ {[%clk 0:10:19.7]} 20. Kf1 {[%clk 0:14:44.3]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1743250424,
+  "rated": true,
+  "accuracies": {
+    "white": 62.9,
+    "black": 64
+  },
+  "tcn": "mCYQlBZJbs!Tft6EgvEvdv0KBKTZcD9zegzIsy8!ys1TCJZKDKTKvC7MJQXQCQ5QsCM0tA!?feIngf",
+  "uuid": "a2045a79-0c95-11f0-bccc-d4601c01000f",
+  "initial_setup": "",
+  "fen": "r4r1k/p3q1pp/2n5/4p3/2B1N3/8/PPP2bPP/R3RK2 b - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 451,
+    "result": "resigned",
+    "@id": "https://api.chess.com/pub/player/rienk1908",
+    "username": "rienk1908",
+    "uuid": "ee887f20-76a5-11ee-9c80-8d968dff068a"
+  },
+  "black": {
+    "rating": 482,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Caro-Kann-Defense-Campomanes-Attack"
+}

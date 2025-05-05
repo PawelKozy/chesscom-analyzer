@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136117804736",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.10\"]\n[Round \"-\"]\n[White \"pawelkozy\"]\n[Black \"DavisGat\"]\n[Result \"1-0\"]\n[CurrentPosition \"3k2Q1/7R/p4p2/P4R2/8/1P5P/8/7K b - -\"]\n[Timezone \"UTC\"]\n[ECO \"C46\"]\n[ECOUrl \"https://www.chess.com/openings/Three-Knights-Opening-3...d6\"]\n[UTCDate \"2025.03.10\"]\n[UTCTime \"17:43:51\"]\n[WhiteElo \"414\"]\n[BlackElo \"404\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won by checkmate\"]\n[StartTime \"17:43:51\"]\n[EndDate \"2025.03.10\"]\n[EndTime \"18:09:54\"]\n[Link \"https://www.chess.com/game/live/136117804736\"]\n\n1. e4 {[%clk 0:15:09.7]} 1... e5 {[%clk 0:15:08.6]} 2. Nf3 {[%clk 0:15:17.2]} 2... Nc6 {[%clk 0:15:15.9]} 3. Nc3 {[%clk 0:15:21.6]} 3... d6 {[%clk 0:15:20.8]} 4. Bc4 {[%clk 0:15:23.8]} 4... f6 {[%clk 0:15:01.6]} 5. d3 {[%clk 0:15:26.9]} 5... f5 {[%clk 0:14:56.6]} 6. exf5 {[%clk 0:15:30.1]} 6... Bxf5 {[%clk 0:14:49.6]} 7. Bg5 {[%clk 0:15:14.5]} 7... Nf6 {[%clk 0:14:52.1]} 8. Bxf6 {[%clk 0:14:31.5]} 8... gxf6 {[%clk 0:14:35.8]} 9. a3 {[%clk 0:14:07.4]} 9... Qd7 {[%clk 0:14:27.2]} 10. O-O {[%clk 0:14:05.6]} 10... Be6 {[%clk 0:14:32.5]} 11. Bxe6 {[%clk 0:14:02.9]} 11... Qxe6 {[%clk 0:14:39]} 12. Nb5 {[%clk 0:14:05.6]} 12... Rg8 {[%clk 0:14:04.7]} 13. Nxc7+ {[%clk 0:14:10.8]} 13... Kd7 {[%clk 0:14:07]} 14. Nxa8 {[%clk 0:14:18.9]} 14... Qd5 {[%clk 0:14:15.5]} 15. c4 {[%clk 0:13:52.7]} 15... Qf7 {[%clk 0:13:49]} 16. Nh4 {[%clk 0:13:11.9]} 16... d5 {[%clk 0:13:47.8]} 17. cxd5 {[%clk 0:13:12.3]} 17... Qxd5 {[%clk 0:13:50.8]} 18. f3 {[%clk 0:12:52.6]} 18... Bc5+ {[%clk 0:13:46.8]} 19. d4 {[%clk 0:12:52.2]} 19... Bxd4+ {[%clk 0:13:53.7]} 20. Kh1 {[%clk 0:12:46.5]} 20... Rxa8 {[%clk 0:13:16.4]} 21. Nf5 {[%clk 0:12:43.1]} 21... e4 {[%clk 0:12:47.9]} 22. Nxd4 {[%clk 0:12:40.7]} 22... Nxd4 {[%clk 0:12:56.5]} 23. fxe4 {[%clk 0:12:40]} 23... Qxe4 {[%clk 0:13:00.7]} 24. Qa4+ {[%clk 0:12:23.6]} 24... b5 {[%clk 0:13:04.6]} 25. Qd1 {[%clk 0:11:50.5]} 25... Rg8 {[%clk 0:12:17.5]} 26. Rf2 {[%clk 0:11:35.4]} 26... Ke6 {[%clk 0:11:36.2]} 27. b3 {[%clk 0:10:53]} 27... h5 {[%clk 0:11:10.3]} 28. a4 {[%clk 0:10:57.1]} 28... b4 {[%clk 0:11:18.1]} 29. a5 {[%clk 0:11:02.3]} 29... h4 {[%clk 0:11:04.5]} 30. h3 {[%clk 0:11:09.2]} 30... Qe3 {[%clk 0:10:23.4]} 31. Qf1 {[%clk 0:10:54.1]} 31... Rg3 {[%clk 0:09:52.5]} 32. Re1 {[%clk 0:10:23.9]} 32... Ne2 {[%clk 0:07:28.4]} 33. Rexe2 {[%clk 0:10:16.9]} 33... Rxh3+ {[%clk 0:07:12.6]} 34. gxh3 {[%clk 0:10:20.7]} 34... Qe4+ {[%clk 0:07:13.3]} 35. Rxe4+ {[%clk 0:10:27.6]} 35... Kd5 {[%clk 0:07:21.8]} 36. Rxb4 {[%clk 0:10:30]} 36... Ke5 {[%clk 0:07:22.6]} 37. Qe1+ {[%clk 0:10:25.6]} 37... Kd5 {[%clk 0:07:29.9]} 38. Rb5+ {[%clk 0:10:28.3]} 38... Kc6 {[%clk 0:07:25.1]} 39. Rb4 {[%clk 0:10:31.2]} 39... Kc5 {[%clk 0:07:32]} 40. Rxh4 {[%clk 0:10:29.3]} 40... a6 {[%clk 0:07:36.6]} 41. Rf5+ {[%clk 0:10:23.5]} 41... Kc6 {[%clk 0:07:41.6]} 42. Qe6+ {[%clk 0:10:31.3]} 42... Kc7 {[%clk 0:07:48.5]} 43. Rh7+ {[%clk 0:10:38.7]} 43... Kd8 {[%clk 0:07:56.4]} 44. Qg8# {[%clk 0:10:43.1]} 1-0\n",
+  "time_control": "900+10",
+  "end_time": 1741630194,
+  "rated": true,
+  "accuracies": {
+    "white": 76.9,
+    "black": 75.5
+  },
+  "tcn": "mC0Kgv5QbsZRfA1TltTLCL6LcM!TMT2Tiq7ZegLSASZSsH?!HY8ZY4SJkAJ1vFRJAJ1Jnv9ItBIBgh!4FLKCLBQBvCJCdyXHyd4!fnZSjr3NqyHzyGNFpxCudf!waeBmemwxoxuCmCSJCzJKfeKJzHJQHzQIzFWOnLIQeSQYF3Y7S!",
+  "uuid": "3ab7ba6c-fdd7-11ef-b4ea-25a49301000f",
+  "initial_setup": "",
+  "fen": "3k2Q1/7R/p4p2/P4R2/8/1P5P/8/7K b - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 414,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "black": {
+    "rating": 404,
+    "result": "checkmated",
+    "@id": "https://api.chess.com/pub/player/davisgat",
+    "username": "DavisGat",
+    "uuid": "d33cefd4-4bd0-11ef-ab07-6bd286b252b4"
+  },
+  "eco": "https://www.chess.com/openings/Three-Knights-Opening-3...d6"
+}

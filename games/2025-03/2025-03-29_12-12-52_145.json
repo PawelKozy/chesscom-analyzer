@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136797555268",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.29\"]\n[Round \"-\"]\n[White \"pawelkozy\"]\n[Black \"Vollkornjoe\"]\n[Result \"0-1\"]\n[CurrentPosition \"3k4/6r1/7p/8/2p4K/8/8/7q w - -\"]\n[Timezone \"UTC\"]\n[ECO \"C50\"]\n[ECOUrl \"https://www.chess.com/openings/Giuoco-Piano-Game-Giuoco-Pianissimo-Italian-Four-Knights-Variation-5...O-O\"]\n[UTCDate \"2025.03.29\"]\n[UTCTime \"10:30:10\"]\n[WhiteElo \"474\"]\n[BlackElo \"444\"]\n[TimeControl \"900+10\"]\n[Termination \"Vollkornjoe won by checkmate\"]\n[StartTime \"10:30:10\"]\n[EndDate \"2025.03.29\"]\n[EndTime \"11:12:52\"]\n[Link \"https://www.chess.com/game/live/136797555268\"]\n\n1. e4 {[%clk 0:15:08.2]} 1... e5 {[%clk 0:15:08.7]} 2. Nf3 {[%clk 0:15:16.1]} 2... Nc6 {[%clk 0:15:14.7]} 3. Nc3 {[%clk 0:15:22.8]} 3... Nf6 {[%clk 0:15:19.2]} 4. Bc4 {[%clk 0:15:11.6]} 4... Bc5 {[%clk 0:14:43.9]} 5. d3 {[%clk 0:15:11.9]} 5... O-O {[%clk 0:14:49]} 6. Bg5 {[%clk 0:14:37.6]} 6... h6 {[%clk 0:14:51.1]} 7. Be3 {[%clk 0:14:32.7]} 7... d6 {[%clk 0:14:41.3]} 8. h3 {[%clk 0:13:55]} 8... Re8 {[%clk 0:14:46.6]} 9. O-O {[%clk 0:13:41.7]} 9... Be6 {[%clk 0:14:49.7]} 10. Bd5 {[%clk 0:12:03.1]} 10... Qd7 {[%clk 0:14:14.7]} 11. Nb5 {[%clk 0:11:16.5]} 11... a6 {[%clk 0:14:09.8]} 12. Bxe6 {[%clk 0:09:32.6]} 12... Rxe6 {[%clk 0:12:25.2]} 13. Nc3 {[%clk 0:09:11.6]} 13... d5 {[%clk 0:11:12.9]} 14. Nxd5 {[%clk 0:08:01.5]} 14... Nxd5 {[%clk 0:10:57.8]} 15. Bxc5 {[%clk 0:07:53.2]} 15... b6 {[%clk 0:10:21.6]} 16. Be3 {[%clk 0:07:29.7]} 16... Nxe3 {[%clk 0:09:18.1]} 17. fxe3 {[%clk 0:07:32.8]} 17... Rd8 {[%clk 0:07:56.7]} 18. c3 {[%clk 0:07:38.8]} 18... b5 {[%clk 0:07:15.5]} 19. d4 {[%clk 0:07:33.6]} 19... f6 {[%clk 0:06:16.6]} 20. Qd3 {[%clk 0:06:43.8]} 20... g5 {[%clk 0:06:11.7]} 21. Rad1 {[%clk 0:06:41.4]} 21... Rd6 {[%clk 0:05:33.2]} 22. Rd2 {[%clk 0:06:20.9]} 22... g4 {[%clk 0:04:16.6]} 23. Nxe5 {[%clk 0:04:39.4]} 23... fxe5 {[%clk 0:03:37.6]} 24. d5 {[%clk 0:03:58.1]} 24... gxh3 {[%clk 0:03:28.6]} 25. Qe2 {[%clk 0:03:28.7]} 25... Ne7 {[%clk 0:03:10.1]} 26. Qh5 {[%clk 0:03:02.2]} 26... hxg2 {[%clk 0:02:42.6]} 27. Rxg2+ {[%clk 0:02:40.2]} 27... Kh7 {[%clk 0:02:26.3]} 28. Qf5+ {[%clk 0:01:44.1]} 28... Nxf5 {[%clk 0:02:13.9]} 29. exf5 {[%clk 0:01:32.8]} 29... Rf6 {[%clk 0:02:03.1]} 30. e4 {[%clk 0:01:35.4]} 30... Rg8 {[%clk 0:01:56.2]} 31. Kf2 {[%clk 0:01:36.3]} 31... Qg7 {[%clk 0:01:27.4]} 32. Rfg1 {[%clk 0:01:26.8]} 32... Qxg2+ {[%clk 0:01:31.2]} 33. Rxg2 {[%clk 0:01:31.9]} 33... Rxg2+ {[%clk 0:01:36]} 34. Kxg2 {[%clk 0:01:40.7]} 34... Kg7 {[%clk 0:01:43.1]} 35. b4 {[%clk 0:01:41.9]} 35... c6 {[%clk 0:01:50.2]} 36. a3 {[%clk 0:01:38.6]} 36... cxd5 {[%clk 0:01:54.3]} 37. exd5 {[%clk 0:01:29]} 37... Rxf5 {[%clk 0:01:59.5]} 38. d6 {[%clk 0:01:35.4]} 38... Kf7 {[%clk 0:02:05.3]} 39. c4 {[%clk 0:01:13.7]} 39... bxc4 {[%clk 0:02:12.5]} 40. a4 {[%clk 0:01:12]} 40... e4 {[%clk 0:02:16.4]} 41. b5 {[%clk 0:01:16.4]} 41... axb5 {[%clk 0:02:23]} 42. a5 {[%clk 0:01:23.1]} 42... b4 {[%clk 0:02:19.7]} 43. a6 {[%clk 0:01:29]} 43... Ra5 {[%clk 0:02:27.8]} 44. d7 {[%clk 0:01:37.2]} 44... Ke7 {[%clk 0:02:35.8]} 45. d8=Q+ {[%clk 0:01:33.8]} 45... Kxd8 {[%clk 0:02:44.4]} 46. a7 {[%clk 0:01:42.7]} 46... Rxa7 {[%clk 0:02:52.9]} 47. Kf2 {[%clk 0:01:43.1]} 47... b3 {[%clk 0:03:02.2]} 48. Ke2 {[%clk 0:01:51.9]} 48... b2 {[%clk 0:03:11.5]} 49. Kd2 {[%clk 0:01:59.5]} 49... b1=Q {[%clk 0:03:19]} 50. Kc3 {[%clk 0:02:07.1]} 50... Qc1+ {[%clk 0:03:22.8]} 51. Kd4 {[%clk 0:02:15]} 51... Rd7+ {[%clk 0:03:25.6]} 52. Kxe4 {[%clk 0:02:23.1]} 52... Qe1+ {[%clk 0:03:31.5]} 53. Kf4 {[%clk 0:02:30.6]} 53... Rf7+ {[%clk 0:03:35.6]} 54. Kg4 {[%clk 0:02:38.7]} 54... Qf1 {[%clk 0:03:37.4]} 55. Kh5 {[%clk 0:02:45.5]} 55... Re7 {[%clk 0:03:36.9]} 56. Kh4 {[%clk 0:02:45.8]} 56... Qg1 {[%clk 0:03:40]} 57. Kh5 {[%clk 0:02:53.5]} 57... Rg7 {[%clk 0:03:43.4]} 58. Kh4 {[%clk 0:03:01.7]} 58... Qh1# {[%clk 0:03:49.2]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1743246772,
+  "rated": true,
+  "accuracies": {
+    "white": 68,
+    "black": 69.6
+  },
+  "tcn": "mC0Kgv5Qbs!TfA9Ilt8!cM3VMuZRpx98eg6SAJ7ZsHWOJS8SHsRJsJTJuIXPIuJunu47ksPHtB1Tdt2MadSRdlMEvKTKBJExtmQ0mNxolo!3NL0LCLRTuC7!gnZ2fg2ogo!ono32jzYQiqQJCJTLJR21sAHAqyKCzHOHyGHzGOLGRZ10Z~07OWGWonzrnmrjmlj~lsbcsBWZBCceCDZ1DEefEN10NFfgFN02NFgh",
+  "uuid": "caca33e1-0c88-11f0-bf7e-c63a6301000f",
+  "initial_setup": "",
+  "fen": "3k4/6r1/7p/8/2p4K/8/8/7q w - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 474,
+    "result": "checkmated",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "black": {
+    "rating": 444,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/vollkornjoe",
+    "username": "Vollkornjoe",
+    "uuid": "1f41727e-cabb-11ef-bee8-e184f3d4ac18"
+  },
+  "eco": "https://www.chess.com/openings/Giuoco-Piano-Game-Giuoco-Pianissimo-Italian-Four-Knights-Variation-5...O-O"
+}

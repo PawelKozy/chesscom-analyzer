@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136254565286",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.14\"]\n[Round \"-\"]\n[White \"pawelkozy\"]\n[Black \"Opd24\"]\n[Result \"0-1\"]\n[CurrentPosition \"rnbqkb2/pp5p/3p2r1/1p1N4/4n3/8/PPPP1PPP/R1B1K2R w KQq -\"]\n[Timezone \"UTC\"]\n[ECO \"C40\"]\n[ECOUrl \"https://www.chess.com/openings/Kings-Pawn-Opening-Kings-Knight-Latvian-Gambit-Accepted\"]\n[UTCDate \"2025.03.14\"]\n[UTCTime \"13:28:44\"]\n[WhiteElo \"387\"]\n[BlackElo \"411\"]\n[TimeControl \"900+10\"]\n[Termination \"Opd24 won by resignation\"]\n[StartTime \"13:28:44\"]\n[EndDate \"2025.03.14\"]\n[EndTime \"13:37:29\"]\n[Link \"https://www.chess.com/game/live/136254565286\"]\n\n1. e4 {[%clk 0:15:09.8]} 1... e5 {[%clk 0:15:08.4]} 2. Nf3 {[%clk 0:15:17.8]} 2... f5 {[%clk 0:15:14.6]} 3. Nxe5 {[%clk 0:14:49]} 3... fxe4 {[%clk 0:15:17.5]} 4. Nc3 {[%clk 0:14:49.3]} 4... d6 {[%clk 0:15:19.4]} 5. Qh5+ {[%clk 0:14:01.5]} 5... g6 {[%clk 0:15:24]} 6. Nxg6 {[%clk 0:13:05.6]} 6... Nf6 {[%clk 0:15:02.8]} 7. Bb5+ {[%clk 0:12:10.3]} 7... c6 {[%clk 0:15:07.5]} 8. Qg5 {[%clk 0:11:51.1]} 8... Rg8 {[%clk 0:14:57.2]} 9. Nd5 {[%clk 0:10:53.5]} 9... Rxg6 {[%clk 0:15:02.5]} 10. Qf4 {[%clk 0:10:34.2]} 10... cxb5 {[%clk 0:15:07.1]} 11. Qxe4+ {[%clk 0:10:26.8]} 11... Nxe4 {[%clk 0:14:43.8]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1741959449,
+  "rated": true,
+  "accuracies": {
+    "white": 44.6,
+    "black": 75.5
+  },
+  "tcn": "mC0Kgv1LvKLCbsZRdN2UKU!TfHYQNM?!sJ!UMDQHDCTC",
+  "uuid": "407c9eb1-00d8-11f0-b9fd-553fb901000f",
+  "initial_setup": "",
+  "fen": "rnbqkb2/pp5p/3p2r1/1p1N4/4n3/8/PPPP1PPP/R1B1K2R w KQq -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 387,
+    "result": "resigned",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "black": {
+    "rating": 411,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/opd24",
+    "username": "Opd24",
+    "uuid": "1b971fac-9cbd-11ee-9c48-63271b89b058"
+  },
+  "eco": "https://www.chess.com/openings/Kings-Pawn-Opening-Kings-Knight-Latvian-Gambit-Accepted"
+}

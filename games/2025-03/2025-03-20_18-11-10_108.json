@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136482048594",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.20\"]\n[Round \"-\"]\n[White \"pawelkozy\"]\n[Black \"KnightKing2200\"]\n[Result \"1-0\"]\n[CurrentPosition \"r3kbnr/2p1p1pp/p1p2p2/5b2/3N4/8/PPPP1PPP/R1BQK2R b KQkq -\"]\n[Timezone \"UTC\"]\n[ECO \"B01\"]\n[ECOUrl \"https://www.chess.com/openings/Scandinavian-Defense-2.e5\"]\n[UTCDate \"2025.03.20\"]\n[UTCTime \"17:07:30\"]\n[WhiteElo \"430\"]\n[BlackElo \"449\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won by resignation\"]\n[StartTime \"17:07:30\"]\n[EndDate \"2025.03.20\"]\n[EndTime \"17:11:10\"]\n[Link \"https://www.chess.com/game/live/136482048594\"]\n\n1. e4 {[%clk 0:15:09.1]} 1... d5 {[%clk 0:15:05.5]} 2. e5 {[%clk 0:15:12.7]} 2... Nc6 {[%clk 0:15:05.5]} 3. Nf3 {[%clk 0:15:18.8]} 3... f6 {[%clk 0:14:57.6]} 4. e6 {[%clk 0:15:21.1]} 4... Bxe6 {[%clk 0:15:03.1]} 5. Bb5 {[%clk 0:15:17.9]} 5... a6 {[%clk 0:14:47]} 6. Bxc6+ {[%clk 0:15:22.3]} 6... bxc6 {[%clk 0:14:54.4]} 7. Nc3 {[%clk 0:15:28.7]} 7... d4 {[%clk 0:14:53.3]} 8. Ne2 {[%clk 0:15:09]} 8... Bf5 {[%clk 0:14:22.3]} 9. Nfxd4 {[%clk 0:15:12.8]} 9... Qxd4 {[%clk 0:14:19.8]} 10. Nxd4 {[%clk 0:15:21.2]} 1-0\n",
+  "time_control": "900+10",
+  "end_time": 1742490670,
+  "rated": true,
+  "accuracies": {
+    "white": 76.4,
+    "black": 53.8
+  },
+  "tcn": "mCZJCK5Qgv1TKS6SfHWOHQXQbsJBsmSLvB7BmB",
+  "uuid": "cefbe185-05ad-11f0-a678-b3afb401000f",
+  "initial_setup": "",
+  "fen": "r3kbnr/2p1p1pp/p1p2p2/5b2/3N4/8/PPPP1PPP/R1BQK2R b KQkq -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 430,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "black": {
+    "rating": 449,
+    "result": "resigned",
+    "@id": "https://api.chess.com/pub/player/knightking2200",
+    "username": "KnightKing2200",
+    "uuid": "e7d2ccc6-b8d0-11ef-85f8-7b7d59cb5767"
+  },
+  "eco": "https://www.chess.com/openings/Scandinavian-Defense-2.e5"
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136492119294",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.20\"]\n[Round \"-\"]\n[White \"dillpickles_69\"]\n[Black \"pawelkozy\"]\n[Result \"1-0\"]\n[CurrentPosition \"2k1r3/pppb2QN/7p/8/n4PP1/N1P2B1P/PP6/R4R1K b - -\"]\n[Timezone \"UTC\"]\n[ECO \"A00\"]\n[ECOUrl \"https://www.chess.com/openings/Mieses-Opening-Reversed-Rat-Variation\"]\n[UTCDate \"2025.03.20\"]\n[UTCTime \"22:36:51\"]\n[WhiteElo \"402\"]\n[BlackElo \"405\"]\n[TimeControl \"900+10\"]\n[Termination \"dillpickles_69 won by resignation\"]\n[StartTime \"22:36:51\"]\n[EndDate \"2025.03.20\"]\n[EndTime \"23:00:09\"]\n[Link \"https://www.chess.com/game/live/136492119294\"]\n\n1. d3 {[%clk 0:15:00.4]} 1... e5 {[%clk 0:15:07.1]} 2. Nf3 {[%clk 0:15:00.7]} 2... d6 {[%clk 0:14:59.7]} 3. Na3 {[%clk 0:14:48.2]} 3... Nc6 {[%clk 0:15:00.5]} 4. Bd2 {[%clk 0:14:50.7]} 4... Bf5 {[%clk 0:15:04.4]} 5. h3 {[%clk 0:14:26.1]} 5... d5 {[%clk 0:15:00.4]} 6. g4 {[%clk 0:13:44.6]} 6... Be6 {[%clk 0:14:47.8]} 7. Ng5 {[%clk 0:13:17.5]} 7... Bd7 {[%clk 0:13:59.5]} 8. Bg2 {[%clk 0:13:14.6]} 8... Nb4 {[%clk 0:13:43.8]} 9. c3 {[%clk 0:12:39.9]} 9... Na6 {[%clk 0:13:17.8]} 10. Bxd5 {[%clk 0:12:43.7]} 10... Nc5 {[%clk 0:12:17.9]} 11. Nxf7 {[%clk 0:12:45.5]} 11... Qf6 {[%clk 0:11:44.5]} 12. Nxh8 {[%clk 0:12:42.7]} 12... O-O-O {[%clk 0:11:46.1]} 13. Bxg8 {[%clk 0:12:48.8]} 13... Na4 {[%clk 0:11:14.8]} 14. Bc1 {[%clk 0:12:55.9]} 14... e4 {[%clk 0:10:58.7]} 15. Nf7 {[%clk 0:12:59.9]} 15... Re8 {[%clk 0:10:41.8]} 16. O-O {[%clk 0:12:00.6]} 16... exd3 {[%clk 0:09:53.3]} 17. Qxd3 {[%clk 0:12:02.8]} 17... Bc5 {[%clk 0:09:39.9]} 18. e3 {[%clk 0:11:56.1]} 18... Qf3 {[%clk 0:09:21.5]} 19. Ng5 {[%clk 0:11:54.7]} 19... Qf6 {[%clk 0:09:04.4]} 20. f4 {[%clk 0:11:55.1]} 20... h6 {[%clk 0:08:30.3]} 21. Nh7 {[%clk 0:11:49.5]} 21... Qh4 {[%clk 0:08:12.1]} 22. Bf7 {[%clk 0:11:05.6]} 22... Re7 {[%clk 0:08:04.5]} 23. Bb3 {[%clk 0:10:45.6]} 23... Qg3+ {[%clk 0:07:30.4]} 24. Kh1 {[%clk 0:10:31.1]} 24... Bc6+ {[%clk 0:07:27.5]} 25. Bd5 {[%clk 0:10:35.2]} 25... Bxe3 {[%clk 0:06:35.3]} 26. Bxe3 {[%clk 0:10:40.1]} 26... Rxe3 {[%clk 0:06:42.8]} 27. Qf5+ {[%clk 0:10:22.1]} 27... Bd7 {[%clk 0:06:26.9]} 28. Qf8+ {[%clk 0:10:29.1]} 28... Re8 {[%clk 0:06:25]} 29. Qxg7 {[%clk 0:10:25.5]} 29... Qf3+ {[%clk 0:06:20]} 30. Bxf3 {[%clk 0:10:32.3]} 1-0\n",
+  "time_control": "900+10",
+  "end_time": 1742511609,
+  "rated": true,
+  "accuracies": {
+    "white": 57,
+    "black": 50.3
+  },
+  "tcn": "lt0KgvZRbq5Qcl6LpxRJoELSvMSZfoQzkszOoJOIM17T1?86J!IylcKC?178egCtdt9ImuTv1MvTnD3VM3TF!1801rFwghZQrJIucu0utLQZL9u892wvJv",
+  "uuid": "d1741de9-05db-11f0-b245-be110401000f",
+  "initial_setup": "",
+  "fen": "2k1r3/pppb2QN/7p/8/n4PP1/N1P2B1P/PP6/R4R1K b - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 402,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/dillpickles_69",
+    "username": "dillpickles_69",
+    "uuid": "ac1b1578-e55d-11ed-b882-f54cfb8b54ab"
+  },
+  "black": {
+    "rating": 405,
+    "result": "resigned",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Mieses-Opening-Reversed-Rat-Variation"
+}

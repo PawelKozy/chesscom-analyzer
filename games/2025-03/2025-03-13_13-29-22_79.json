@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136215399200",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.13\"]\n[Round \"-\"]\n[White \"neo_clarsen\"]\n[Black \"pawelkozy\"]\n[Result \"0-1\"]\n[CurrentPosition \"1rb2Bk1/ppNp1ppp/8/8/2B1n3/2bp4/P1P2P1P/1R1K1q2 w - -\"]\n[Timezone \"UTC\"]\n[ECO \"C46\"]\n[ECOUrl \"https://www.chess.com/openings/Three-Knights-Opening-3...Bc5\"]\n[UTCDate \"2025.03.13\"]\n[UTCTime \"12:11:22\"]\n[WhiteElo \"349\"]\n[BlackElo \"380\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won by checkmate\"]\n[StartTime \"12:11:22\"]\n[EndDate \"2025.03.13\"]\n[EndTime \"12:29:22\"]\n[Link \"https://www.chess.com/game/live/136215399200\"]\n\n1. e4 {[%clk 0:15:08.8]} 1... e5 {[%clk 0:15:08.9]} 2. Nf3 {[%clk 0:15:16.9]} 2... Nc6 {[%clk 0:15:15.3]} 3. Nc3 {[%clk 0:15:25.9]} 3... Bc5 {[%clk 0:15:10.8]} 4. Ng5 {[%clk 0:15:27]} 4... Qxg5 {[%clk 0:14:55.7]} 5. Bc4 {[%clk 0:15:29]} 5... Qxg2 {[%clk 0:14:41.2]} 6. Rf1 {[%clk 0:15:09]} 6... Nf6 {[%clk 0:13:42.8]} 7. Nb5 {[%clk 0:14:37.8]} 7... O-O {[%clk 0:13:32.7]} 8. Nxc7 {[%clk 0:14:00]} 8... Rb8 {[%clk 0:13:26.3]} 9. d4 {[%clk 0:13:53.9]} 9... Bxd4 {[%clk 0:12:09.7]} 10. Bd5 {[%clk 0:13:41.3]} 10... Ne7 {[%clk 0:10:24.1]} 11. Bc4 {[%clk 0:13:25.5]} 11... Nxe4 {[%clk 0:10:07.3]} 12. Be3 {[%clk 0:12:48.1]} 12... Bxb2 {[%clk 0:09:57.7]} 13. Rb1 {[%clk 0:12:36.1]} 13... Bc3+ {[%clk 0:09:41.4]} 14. Ke2 {[%clk 0:12:32.4]} 14... Nf5 {[%clk 0:09:03.3]} 15. Bc5 {[%clk 0:12:36.8]} 15... Qg4+ {[%clk 0:08:27.1]} 16. Kd3 {[%clk 0:12:14.5]} 16... Qh3+ {[%clk 0:07:17.8]} 17. Ke2 {[%clk 0:12:11.3]} 17... Nd4+ {[%clk 0:06:59.5]} 18. Qxd4 {[%clk 0:11:56.2]} 18... exd4 {[%clk 0:07:07.9]} 19. Bxf8 {[%clk 0:12:03.8]} 19... d3+ {[%clk 0:06:44.8]} 20. Kd1 {[%clk 0:12:08.9]} 20... Qxf1# {[%clk 0:06:40.4]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1741868962,
+  "rated": true,
+  "accuracies": {
+    "white": 61.8,
+    "black": 72.4
+  },
+  "tcn": "mC0Kgv5Qbs9IvM7MfAMohf!TsH8!HY45lBIBAJQ0JATCcuBjabjsem0LuIoEmtExtmLBdBKBI9Btmdxf",
+  "uuid": "47337877-0004-11f0-8117-35d7c101000f",
+  "initial_setup": "",
+  "fen": "1rb2Bk1/ppNp1ppp/8/8/2B1n3/2bp4/P1P2P1P/1R1K1q2 w - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 349,
+    "result": "checkmated",
+    "@id": "https://api.chess.com/pub/player/neo_clarsen",
+    "username": "neo_clarsen",
+    "uuid": "aca71a34-dc85-11ef-b8bb-4dd1bae41674"
+  },
+  "black": {
+    "rating": 380,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Three-Knights-Opening-3...Bc5"
+}

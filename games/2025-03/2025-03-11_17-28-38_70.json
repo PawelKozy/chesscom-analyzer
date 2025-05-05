@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136150729654",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.11\"]\n[Round \"-\"]\n[White \"pawelkozy\"]\n[Black \"chriso3008\"]\n[Result \"0-1\"]\n[CurrentPosition \"4r3/p2k1p2/3b3p/1P1b2P1/3N2P1/P2P4/1P2nP2/2R3K1 w - -\"]\n[Timezone \"UTC\"]\n[ECO \"C47\"]\n[ECOUrl \"https://www.chess.com/openings/Four-Knights-Game-Italian-Variation\"]\n[UTCDate \"2025.03.11\"]\n[UTCTime \"16:13:53\"]\n[WhiteElo \"389\"]\n[BlackElo \"391\"]\n[TimeControl \"900+10\"]\n[Termination \"chriso3008 won by resignation\"]\n[StartTime \"16:13:53\"]\n[EndDate \"2025.03.11\"]\n[EndTime \"16:28:38\"]\n[Link \"https://www.chess.com/game/live/136150729654\"]\n\n1. e4 {[%clk 0:15:09.1]} 1... e5 {[%clk 0:15:02.7]} 2. Nf3 {[%clk 0:15:17.2]} 2... Nc6 {[%clk 0:15:04.6]} 3. Nc3 {[%clk 0:15:25]} 3... Nf6 {[%clk 0:15:05.8]} 4. Bc4 {[%clk 0:15:31.6]} 4... d6 {[%clk 0:14:52.7]} 5. d3 {[%clk 0:15:38.7]} 5... Ne7 {[%clk 0:14:24.2]} 6. Bg5 {[%clk 0:15:42.6]} 6... c6 {[%clk 0:14:08.9]} 7. O-O {[%clk 0:15:22.1]} 7... d5 {[%clk 0:14:16.9]} 8. exd5 {[%clk 0:15:27.4]} 8... cxd5 {[%clk 0:14:24]} 9. Bxd5 {[%clk 0:15:33.4]} 9... Nexd5 {[%clk 0:14:32.5]} 10. Nxd5 {[%clk 0:15:42.2]} 10... Qxd5 {[%clk 0:14:40.5]} 11. c4 {[%clk 0:15:34.3]} 11... Qd8 {[%clk 0:14:40.6]} 12. Nxe5 {[%clk 0:15:35]} 12... h6 {[%clk 0:14:47.9]} 13. Qh5 {[%clk 0:15:06.8]} 13... Nxh5 {[%clk 0:14:42.4]} 14. Bxd8 {[%clk 0:15:13.7]} 14... Be6 {[%clk 0:14:41]} 15. Rfe1 {[%clk 0:14:54.7]} 15... Rxd8 {[%clk 0:14:47.1]} 16. g4 {[%clk 0:14:47.2]} 16... Nf4 {[%clk 0:14:53.1]} 17. Rad1 {[%clk 0:14:23.7]} 17... Bb4 {[%clk 0:14:57.2]} 18. Re4 {[%clk 0:14:26.4]} 18... g5 {[%clk 0:14:39.9]} 19. a3 {[%clk 0:13:51.9]} 19... Bd6 {[%clk 0:14:48.1]} 20. Nf3 {[%clk 0:13:23]} 20... Ke7 {[%clk 0:14:41.4]} 21. h4 {[%clk 0:13:22.1]} 21... b5 {[%clk 0:14:42.1]} 22. cxb5 {[%clk 0:13:17.8]} 22... Kf8 {[%clk 0:14:34]} 23. hxg5 {[%clk 0:13:20.7]} 23... Bd5 {[%clk 0:14:42.6]} 24. Re3 {[%clk 0:11:53.1]} 24... Re8 {[%clk 0:14:03.1]} 25. Rxe8+ {[%clk 0:11:28.7]} 25... Kxe8 {[%clk 0:14:09.2]} 26. Re1+ {[%clk 0:11:37.7]} 26... Kd7 {[%clk 0:14:08.2]} 27. Nd4 {[%clk 0:11:36.9]} 27... Re8 {[%clk 0:14:15.5]} 28. Rc1 {[%clk 0:11:21.4]} 28... Ne2+ {[%clk 0:13:34.7]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1741710518,
+  "rated": true,
+  "accuracies": {
+    "white": 68.6,
+    "black": 70.3
+  },
+  "tcn": "mC0Kgv5Qbs!TfAZRltQ0cMYQegRJCJQJAJ0JsJ7JkAJ7vK3VdNTNM76Sfe47oENDad9zeC2MiqzRKv80pFXHAH09FMSJCu78u898de8ZvB?8ecDm",
+  "uuid": "d3c25340-fe93-11ef-b300-b1f63801000f",
+  "initial_setup": "",
+  "fen": "4r3/p2k1p2/3b3p/1P1b2P1/3N2P1/P2P4/1P2nP2/2R3K1 w - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 389,
+    "result": "resigned",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "black": {
+    "rating": 391,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/chriso3008",
+    "username": "chriso3008",
+    "uuid": "28b718c0-cc2e-11eb-94be-41874417c713"
+  },
+  "eco": "https://www.chess.com/openings/Four-Knights-Game-Italian-Variation"
+}

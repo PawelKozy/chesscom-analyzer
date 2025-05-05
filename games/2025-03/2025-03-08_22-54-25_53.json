@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136054378228",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.08\"]\n[Round \"-\"]\n[White \"AtikAziz\"]\n[Black \"pawelkozy\"]\n[Result \"1-0\"]\n[CurrentPosition \"4k2N/Bp4p1/8/2p5/8/P1NB4/P4P1P/2R1K2R b K -\"]\n[Timezone \"UTC\"]\n[ECO \"C20\"]\n[ECOUrl \"https://www.chess.com/openings/Kings-Pawn-Opening-Napoleon-Attack\"]\n[UTCDate \"2025.03.08\"]\n[UTCTime \"21:48:53\"]\n[WhiteElo \"447\"]\n[BlackElo \"432\"]\n[TimeControl \"600\"]\n[Termination \"AtikAziz won by resignation\"]\n[StartTime \"21:48:53\"]\n[EndDate \"2025.03.08\"]\n[EndTime \"21:54:25\"]\n[Link \"https://www.chess.com/game/live/136054378228\"]\n\n1. e4 {[%clk 0:09:59.9]} 1... e5 {[%clk 0:09:59]} 2. Qf3 {[%clk 0:09:59]} 2... Nf6 {[%clk 0:09:53.7]} 3. Bc4 {[%clk 0:09:58.9]} 3... Nc6 {[%clk 0:09:46.6]} 4. Nh3 {[%clk 0:09:57.6]} 4... d6 {[%clk 0:09:38.4]} 5. Ng5 {[%clk 0:09:55.8]} 5... Nxe4 {[%clk 0:09:19.5]} 6. Nxf7 {[%clk 0:09:42.1]} 6... Qf6 {[%clk 0:08:48.8]} 7. Nxh8 {[%clk 0:09:32.9]} 7... Qxf3 {[%clk 0:08:42.7]} 8. gxf3 {[%clk 0:09:29.7]} 8... Ng5 {[%clk 0:08:21.2]} 9. Bd5 {[%clk 0:09:22.3]} 9... Nxf3+ {[%clk 0:08:17]} 10. Bxf3 {[%clk 0:09:18.8]} 10... Nd4 {[%clk 0:08:11]} 11. Bd1 {[%clk 0:09:11.3]} 11... d5 {[%clk 0:07:58.3]} 12. Nc3 {[%clk 0:09:10.2]} 12... c6 {[%clk 0:07:49.5]} 13. d3 {[%clk 0:09:00.9]} 13... Bf5 {[%clk 0:07:29.4]} 14. Be3 {[%clk 0:08:56.6]} 14... Nf3+ {[%clk 0:07:17.6]} 15. Bxf3 {[%clk 0:08:54.6]} 15... Bxd3 {[%clk 0:07:13.3]} 16. cxd3 {[%clk 0:08:52.6]} 16... e4 {[%clk 0:07:10.5]} 17. dxe4 {[%clk 0:08:50.8]} 17... dxe4 {[%clk 0:07:09.2]} 18. Bxe4 {[%clk 0:08:49.8]} 18... Bb4 {[%clk 0:07:04.9]} 19. Bxh7 {[%clk 0:08:43.1]} 19... Rd8 {[%clk 0:06:57.8]} 20. Bxa7 {[%clk 0:08:32.6]} 20... Ba3 {[%clk 0:06:45.7]} 21. bxa3 {[%clk 0:08:28.8]} 21... Rd3 {[%clk 0:06:39.6]} 22. Rc1 {[%clk 0:08:19.8]} 22... c5 {[%clk 0:06:30.3]} 23. Bxd3 {[%clk 0:08:18.4]} 1-0\n",
+  "time_control": "600",
+  "end_time": 1741470865,
+  "rated": true,
+  "accuracies": {
+    "white": 75,
+    "black": 65
+  },
+  "tcn": "mC0Kdv!TfA5QgxZRxMTCM17T1?TvovCMAJMvJvQBvdRJbsYQlt6LcuBvdvLtktKCtCJCvC9zC347uWzqjq7tacQI3t",
+  "uuid": "20dd9c1d-fc67-11ef-ba3e-a318ff01000f",
+  "initial_setup": "",
+  "fen": "4k2N/Bp4p1/8/2p5/8/P1NB4/P4P1P/2R1K2R b K -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 447,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/atikaziz",
+    "username": "AtikAziz",
+    "uuid": "f6f4c26c-98f1-11ef-a44c-33ecaade5374"
+  },
+  "black": {
+    "rating": 432,
+    "result": "resigned",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Kings-Pawn-Opening-Napoleon-Attack"
+}

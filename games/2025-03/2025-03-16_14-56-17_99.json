@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136327901444",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.16\"]\n[Round \"-\"]\n[White \"PaiNxEL007\"]\n[Black \"pawelkozy\"]\n[Result \"0-1\"]\n[CurrentPosition \"r1bqkbnr/pp3ppp/2n5/1B1p4/3Pp3/2N4N/PPP2PPP/R1BQK2R b KQkq -\"]\n[Timezone \"UTC\"]\n[ECO \"B10\"]\n[ECOUrl \"https://www.chess.com/openings/Caro-Kann-Defense-2.Nc3-d5-3.d3\"]\n[UTCDate \"2025.03.16\"]\n[UTCTime \"13:54:10\"]\n[WhiteElo \"399\"]\n[BlackElo \"394\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won by resignation\"]\n[StartTime \"13:54:10\"]\n[EndDate \"2025.03.16\"]\n[EndTime \"13:56:17\"]\n[Link \"https://www.chess.com/game/live/136327901444\"]\n\n1. e4 {[%clk 0:15:05.4]} 1... c6 {[%clk 0:15:03.1]} 2. Nc3 {[%clk 0:15:10.5]} 2... d5 {[%clk 0:15:10.3]} 3. d3 {[%clk 0:15:08]} 3... e5 {[%clk 0:15:14.8]} 4. exd5 {[%clk 0:15:02]} 4... cxd5 {[%clk 0:15:19.8]} 5. d4 {[%clk 0:15:03.7]} 5... e4 {[%clk 0:15:26]} 6. Bb5+ {[%clk 0:15:13.6]} 6... Nc6 {[%clk 0:15:08.7]} 7. Nh3 {[%clk 0:15:12.7]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1742133377,
+  "rated": true,
+  "accuracies": {
+    "white": 88.4,
+    "black": 98.4
+  },
+  "tcn": "mCYQbsZJlt0KCJQJtBKCfH5Qgx",
+  "uuid": "232635fd-026e-11f0-80bf-8bba5f01000f",
+  "initial_setup": "",
+  "fen": "r1bqkbnr/pp3ppp/2n5/1B1p4/3Pp3/2N4N/PPP2PPP/R1BQK2R b KQkq -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 399,
+    "result": "resigned",
+    "@id": "https://api.chess.com/pub/player/painxel007",
+    "username": "PaiNxEL007",
+    "uuid": "eb0a6d72-b560-11ef-916a-8f7611d251b5"
+  },
+  "black": {
+    "rating": 394,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Caro-Kann-Defense-2.Nc3-d5-3.d3"
+}

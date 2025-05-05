@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136018444048",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.07\"]\n[Round \"-\"]\n[White \"msdmohit_007\"]\n[Black \"pawelkozy\"]\n[Result \"1-0\"]\n[CurrentPosition \"r1bqk2r/pppp1Qpp/2n2p2/4p1N1/8/3P4/PPPK1PPP/R4B1R b kq -\"]\n[Timezone \"UTC\"]\n[ECO \"C20\"]\n[ECOUrl \"https://www.chess.com/openings/Kings-Pawn-Opening-Napoleon-Attack\"]\n[UTCDate \"2025.03.07\"]\n[UTCTime \"21:32:53\"]\n[WhiteElo \"383\"]\n[BlackElo \"417\"]\n[TimeControl \"900+10\"]\n[Termination \"msdmohit_007 won by checkmate\"]\n[StartTime \"21:32:53\"]\n[EndDate \"2025.03.07\"]\n[EndTime \"21:38:26\"]\n[Link \"https://www.chess.com/game/live/136018444048\"]\n\n1. e4 {[%clk 0:15:04.2]} 1... e5 {[%clk 0:15:02.7]} 2. Qf3 {[%clk 0:15:08.1]} 2... Nf6 {[%clk 0:14:51.5]} 3. Qb3 {[%clk 0:14:52.5]} 3... Nxe4 {[%clk 0:14:46.3]} 4. Nf3 {[%clk 0:14:51.1]} 4... Nc6 {[%clk 0:14:43.1]} 5. d3 {[%clk 0:14:56.5]} 5... Bb4+ {[%clk 0:14:32]} 6. Nbd2 {[%clk 0:14:30.5]} 6... Nxd2 {[%clk 0:14:26.6]} 7. Bxd2 {[%clk 0:14:34.9]} 7... Bxd2+ {[%clk 0:14:22]} 8. Kxd2 {[%clk 0:14:40.6]} 8... Na5 {[%clk 0:13:55.7]} 9. Qd5 {[%clk 0:14:21.2]} 9... Nc6 {[%clk 0:13:45.8]} 10. Ng5 {[%clk 0:14:18.6]} 10... f6 {[%clk 0:13:44.2]} 11. Qf7# {[%clk 0:14:20.3]} 1-0\n",
+  "time_control": "900+10",
+  "end_time": 1741383506,
+  "rated": true,
+  "accuracies": {
+    "white": 42.7,
+    "black": 38.6
+  },
+  "tcn": "mC0Kdv!TvrTCgv5Qlt9zblClclzlelQGrJGQvM1TJ1",
+  "uuid": "ba3bd2e8-fb9b-11ef-b33b-b4382c01000f",
+  "initial_setup": "",
+  "fen": "r1bqk2r/pppp1Qpp/2n2p2/4p1N1/8/3P4/PPPK1PPP/R4B1R b kq -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 383,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/msdmohit_007",
+    "username": "msdmohit_007",
+    "uuid": "758f2a92-ed64-11ef-8469-bfe3172f46cd"
+  },
+  "black": {
+    "rating": 417,
+    "result": "checkmated",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Kings-Pawn-Opening-Napoleon-Attack"
+}

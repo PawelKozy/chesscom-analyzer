@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136734551502",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.27\"]\n[Round \"-\"]\n[White \"Kmanozero\"]\n[Black \"pawelkozy\"]\n[Result \"0-1\"]\n[CurrentPosition \"r4rk1/ppq3pp/4b1n1/2bpp3/8/2PQ2B1/PP2BPPP/R3KR2 w Q -\"]\n[Timezone \"UTC\"]\n[ECO \"B12\"]\n[ECOUrl \"https://www.chess.com/openings/Caro-Kann-Defense-Advance-Variation\"]\n[UTCDate \"2025.03.27\"]\n[UTCTime \"15:50:48\"]\n[WhiteElo \"458\"]\n[BlackElo \"463\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won on time\"]\n[StartTime \"15:50:48\"]\n[EndDate \"2025.03.27\"]\n[EndTime \"16:13:35\"]\n[Link \"https://www.chess.com/game/live/136734551502\"]\n\n1. e4 {[%clk 0:15:03.7]} 1... c6 {[%clk 0:15:08.6]} 2. d4 {[%clk 0:15:11.7]} 2... d5 {[%clk 0:15:17.4]} 3. e5 {[%clk 0:15:20.4]} 3... e6 {[%clk 0:15:26.1]} 4. Nf3 {[%clk 0:15:21.2]} 4... c5 {[%clk 0:15:23.4]} 5. c3 {[%clk 0:15:15.8]} 5... Nc6 {[%clk 0:15:25.9]} 6. Be2 {[%clk 0:15:15.6]} 6... Qa5 {[%clk 0:15:07.8]} 7. Bf4 {[%clk 0:14:06.9]} 7... cxd4 {[%clk 0:15:07.6]} 8. Nxd4 {[%clk 0:07:04.2]} 8... Nxd4 {[%clk 0:15:09.6]} 9. Qxd4 {[%clk 0:07:04.6]} 9... Ne7 {[%clk 0:14:51.8]} 10. Nd2 {[%clk 0:04:48.7]} 10... Ng6 {[%clk 0:14:51.5]} 11. Bg3 {[%clk 0:03:58.9]} 11... Bc5 {[%clk 0:14:48.8]} 12. Qd3 {[%clk 0:01:31.1]} 12... O-O {[%clk 0:14:06.6]} 13. Rf1 {[%clk 0:00:57]} 13... f6 {[%clk 0:13:50.2]} 14. Nf3 {[%clk 0:00:46.2]} 14... Qc7 {[%clk 0:13:09.1]} 15. Nd4 {[%clk 0:00:25.3]} 15... fxe5 {[%clk 0:12:39.2]} 16. Nxe6 {[%clk 0:00:12.1]} 16... Bxe6 {[%clk 0:12:46.7]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1743092015,
+  "rated": true,
+  "accuracies": {
+    "white": 58.3,
+    "black": 69.6
+  },
+  "tcn": "mCYQlBZJCK0SgvQIks5Qfm7GcDIBvBQBdB!0bl0UDw9IBt8!hf1TlvGYvBTKBS6S",
+  "uuid": "40800d54-0b23-11f0-9fbb-8dab2e01000f",
+  "initial_setup": "",
+  "fen": "r4rk1/ppq3pp/4b1n1/2bpp3/8/2PQ2B1/PP2BPPP/R3KR2 w Q -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 458,
+    "result": "timeout",
+    "@id": "https://api.chess.com/pub/player/kmanozero",
+    "username": "Kmanozero",
+    "uuid": "7676b558-2550-11ed-9a35-e92b0149fdef"
+  },
+  "black": {
+    "rating": 463,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Caro-Kann-Defense-Advance-Variation"
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/136540177818",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.22\"]\n[Round \"-\"]\n[White \"fachri26267\"]\n[Black \"pawelkozy\"]\n[Result \"0-1\"]\n[CurrentPosition \"rnbqkbnr/pp2pppp/2p5/3p4/4P3/3B4/PPPP1PPP/RNBQK1NR b KQkq -\"]\n[Timezone \"UTC\"]\n[ECO \"B10\"]\n[ECOUrl \"https://www.chess.com/openings/Caro-Kann-Defense-Hillbilly-Attack-2...d5\"]\n[UTCDate \"2025.03.22\"]\n[UTCTime \"08:47:45\"]\n[WhiteElo \"419\"]\n[BlackElo \"428\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won by resignation\"]\n[StartTime \"08:47:45\"]\n[EndDate \"2025.03.22\"]\n[EndTime \"08:48:23\"]\n[Link \"https://www.chess.com/game/live/136540177818\"]\n\n1. e4 {[%clk 0:15:05.2]} 1... c6 {[%clk 0:15:08.4]} 2. Bc4 {[%clk 0:15:13.4]} 2... d5 {[%clk 0:15:15.9]} 3. Bd3 {[%clk 0:15:13.2]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1742633303,
+  "rated": true,
+  "accuracies": {
+    "white": 82.5,
+    "black": 100
+  },
+  "tcn": "mCYQfAZJAt",
+  "uuid": "52fae39f-06fa-11f0-a5d2-9fb31f01000f",
+  "initial_setup": "",
+  "fen": "rnbqkbnr/pp2pppp/2p5/3p4/4P3/3B4/PPPP1PPP/RNBQK1NR b KQkq -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 419,
+    "result": "resigned",
+    "@id": "https://api.chess.com/pub/player/fachri26267",
+    "username": "fachri26267",
+    "uuid": "eef9f608-8494-11ee-bbe5-0b8b12c7d6fe"
+  },
+  "black": {
+    "rating": 428,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Caro-Kann-Defense-Hillbilly-Attack-2...d5"
+}

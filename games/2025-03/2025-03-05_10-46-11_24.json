@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/123563510506",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.05\"]\n[Round \"-\"]\n[White \"pawelkozy\"]\n[Black \"HAUGLANDX\"]\n[Result \"1-0\"]\n[CurrentPosition \"rn3rk1/p3R1bp/2p5/3q1pN1/1p1P1Bn1/5NPb/PPP2P1P/R2Q2K1 b - -\"]\n[Timezone \"UTC\"]\n[ECO \"B12\"]\n[ECOUrl \"https://www.chess.com/openings/Caro-Kann-Defense-2.d4\"]\n[UTCDate \"2025.03.05\"]\n[UTCTime \"09:29:35\"]\n[WhiteElo \"401\"]\n[BlackElo \"330\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won - game abandoned\"]\n[StartTime \"09:29:35\"]\n[EndDate \"2025.03.05\"]\n[EndTime \"09:46:11\"]\n[Link \"https://www.chess.com/game/live/123563510506\"]\n\n1. e4 {[%clk 0:15:09.2]} 1... c6 {[%clk 0:15:01.2]} 2. d4 {[%clk 0:15:16.2]} 2... b5 {[%clk 0:15:09.9]} 3. Nc3 {[%clk 0:15:20.7]} 3... g5 {[%clk 0:15:06.9]} 4. Bxg5 {[%clk 0:15:19.5]} 4... f6 {[%clk 0:15:08.9]} 5. Bf4 {[%clk 0:15:12.6]} 5... Bh6 {[%clk 0:15:12.5]} 6. g3 {[%clk 0:15:15.9]} 6... Bg7 {[%clk 0:14:34]} 7. Nf3 {[%clk 0:14:39.5]} 7... Nh6 {[%clk 0:14:20.5]} 8. Bh3 {[%clk 0:13:40.3]} 8... O-O {[%clk 0:13:46.3]} 9. O-O {[%clk 0:13:01.9]} 9... d5 {[%clk 0:13:45.3]} 10. exd5 {[%clk 0:12:51.4]} 10... Bxh3 {[%clk 0:13:50.6]} 11. Re1 {[%clk 0:12:47.9]} 11... b4 {[%clk 0:13:38.1]} 12. Ne4 {[%clk 0:11:40.4]} 12... f5 {[%clk 0:13:28.2]} 13. Neg5 {[%clk 0:11:21.8]} 13... Qxd5 {[%clk 0:12:54.2]} 14. Re3 {[%clk 0:09:51.4]} 14... Ng4 {[%clk 0:12:42.5]} 15. Rxe7 {[%clk 0:09:42.3]} 1-0\n",
+  "time_control": "900+10",
+  "end_time": 1741167971,
+  "rated": true,
+  "accuracies": {
+    "white": 41.1,
+    "black": 30.4
+  },
+  "tcn": "mCYQlBXHbs2McM1TMD9VowV2gv!Vfx8!egZJCJ6xfeHzsCTLCM7JeuVEu0",
+  "uuid": "5a426c6b-f9a4-11ef-879d-b111dd01000f",
+  "initial_setup": "",
+  "fen": "rn3rk1/p3R1bp/2p5/3q1pN1/1p1P1Bn1/5NPb/PPP2P1P/R2Q2K1 b - -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 401,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "black": {
+    "rating": 330,
+    "result": "abandoned",
+    "@id": "https://api.chess.com/pub/player/hauglandx",
+    "username": "HAUGLANDX",
+    "uuid": "216dfbfa-4811-11ed-880e-db8b028eb771"
+  },
+  "eco": "https://www.chess.com/openings/Caro-Kann-Defense-2.d4"
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/123599812904",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.06\"]\n[Round \"-\"]\n[White \"fei1faye\"]\n[Black \"pawelkozy\"]\n[Result \"0-1\"]\n[CurrentPosition \"2rqkb1r/5p1p/p2pbp2/1p1Np3/4P3/1P1PnP1N/P5PP/2KR3R w k -\"]\n[Timezone \"UTC\"]\n[ECO \"C20\"]\n[ECOUrl \"https://www.chess.com/openings/Kings-Pawn-Opening-Kings-Head-Opening-2...Nf6-3.Nc3\"]\n[UTCDate \"2025.03.06\"]\n[UTCTime \"09:51:22\"]\n[WhiteElo \"400\"]\n[BlackElo \"407\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won by resignation\"]\n[StartTime \"09:51:22\"]\n[EndDate \"2025.03.06\"]\n[EndTime \"10:00:41\"]\n[Link \"https://www.chess.com/game/live/123599812904\"]\n\n1. e4 {[%clk 0:15:02.9]} 1... e5 {[%clk 0:15:09]} 2. Nc3 {[%clk 0:15:07.7]} 2... Nf6 {[%clk 0:15:09.5]} 3. f3 {[%clk 0:15:05.3]} 3... d6 {[%clk 0:15:09.4]} 4. Bc4 {[%clk 0:14:45.5]} 4... Nc6 {[%clk 0:14:52]} 5. d3 {[%clk 0:14:27.2]} 5... Nd4 {[%clk 0:14:32.7]} 6. Bg5 {[%clk 0:14:03.5]} 6... a6 {[%clk 0:14:10.6]} 7. b3 {[%clk 0:13:55.6]} 7... b5 {[%clk 0:14:06.5]} 8. Bxf6 {[%clk 0:13:30.8]} 8... gxf6 {[%clk 0:14:14.8]} 9. Bd5 {[%clk 0:13:36.6]} 9... c6 {[%clk 0:14:11.3]} 10. Bxc6+ {[%clk 0:13:41]} 10... Nxc6 {[%clk 0:14:19.4]} 11. Nd5 {[%clk 0:13:41.1]} 11... Nd4 {[%clk 0:13:43.2]} 12. Qd2 {[%clk 0:13:38.2]} 12... Be6 {[%clk 0:13:36.7]} 13. Nh3 {[%clk 0:13:26]} 13... Rc8 {[%clk 0:13:02.3]} 14. O-O-O {[%clk 0:13:01]} 14... Nxc2 {[%clk 0:12:56.6]} 15. Qe3 {[%clk 0:12:49.4]} 15... Nxe3+ {[%clk 0:13:01.4]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1741255241,
+  "rated": true,
+  "accuracies": {
+    "white": 64.5,
+    "black": 85.2
+  },
+  "tcn": "mC0Kbs!TnvZRfA5QltQBcMWOjrXHMT2TAJYQJQBQsJQBdl6Sgx46ecBkluku",
+  "uuid": "8fe16852-fa70-11ef-8f16-2d9d6301000f",
+  "initial_setup": "",
+  "fen": "2rqkb1r/5p1p/p2pbp2/1p1Np3/4P3/1P1PnP1N/P5PP/2KR3R w k -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 400,
+    "result": "resigned",
+    "@id": "https://api.chess.com/pub/player/fei1faye",
+    "username": "fei1faye",
+    "uuid": "5253ab38-e0e0-11ef-baec-6106920fd313"
+  },
+  "black": {
+    "rating": 407,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Kings-Pawn-Opening-Kings-Head-Opening-2...Nf6-3.Nc3"
+}

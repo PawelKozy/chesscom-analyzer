@@ -1,0 +1,32 @@
+{
+  "url": "https://www.chess.com/game/live/123472647260",
+  "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.02\"]\n[Round \"-\"]\n[White \"MadMiszi\"]\n[Black \"pawelkozy\"]\n[Result \"0-1\"]\n[CurrentPosition \"2b1kb1r/p3q1p1/2np4/6P1/4P3/N7/PP4PP/4K2R w Kk -\"]\n[Timezone \"UTC\"]\n[ECO \"C44\"]\n[ECOUrl \"https://www.chess.com/openings/Ponziani-Opening-3...d6-4.d4\"]\n[UTCDate \"2025.03.02\"]\n[UTCTime \"20:11:06\"]\n[WhiteElo \"354\"]\n[BlackElo \"361\"]\n[TimeControl \"900+10\"]\n[Termination \"pawelkozy won by resignation\"]\n[StartTime \"20:11:06\"]\n[EndDate \"2025.03.02\"]\n[EndTime \"20:27:55\"]\n[Link \"https://www.chess.com/game/live/123472647260\"]\n\n1. e4 {[%clk 0:15:01]} 1... e5 {[%clk 0:15:08.7]} 2. Nf3 {[%clk 0:15:09.3]} 2... Nc6 {[%clk 0:15:15.2]} 3. c3 {[%clk 0:15:17.7]} 3... d6 {[%clk 0:15:15.9]} 4. d4 {[%clk 0:15:15.7]} 4... exd4 {[%clk 0:15:21.6]} 5. cxd4 {[%clk 0:15:23.3]} 5... Bg4 {[%clk 0:15:25.5]} 6. d5 {[%clk 0:15:23.1]} 6... Ne5 {[%clk 0:15:14.6]} 7. Qa4+ {[%clk 0:15:10.9]} 7... c6 {[%clk 0:15:04.9]} 8. dxc6 {[%clk 0:15:10.4]} 8... bxc6 {[%clk 0:15:12.8]} 9. Bg5 {[%clk 0:14:40.8]} 9... f6 {[%clk 0:15:12.1]} 10. Bb5 {[%clk 0:14:14.1]} 10... Ne7 {[%clk 0:14:36.3]} 11. Na3 {[%clk 0:13:50]} 11... fxg5 {[%clk 0:14:38.9]} 12. Nxg5 {[%clk 0:13:46.6]} 12... cxb5 {[%clk 0:14:04.6]} 13. Qxb5+ {[%clk 0:13:46.2]} 13... N7c6 {[%clk 0:14:04.8]} 14. Rc1 {[%clk 0:13:05.9]} 14... Rc8 {[%clk 0:14:00.4]} 15. Ne6 {[%clk 0:12:41.7]} 15... Qe7 {[%clk 0:13:24.2]} 16. Rxc6 {[%clk 0:11:30]} 16... Nxc6 {[%clk 0:13:22.2]} 17. Ng5 {[%clk 0:10:45.2]} 17... h6 {[%clk 0:12:33.6]} 18. Qa6 {[%clk 0:10:11.6]} 18... Qd7 {[%clk 0:12:19.3]} 19. f4 {[%clk 0:08:27.5]} 19... hxg5 {[%clk 0:12:01]} 20. fxg5 {[%clk 0:08:25.4]} 20... Qe7 {[%clk 0:11:51.9]} 21. Qxc8+ {[%clk 0:08:25.5]} 21... Bxc8 {[%clk 0:11:59.2]} 0-1\n",
+  "time_control": "900+10",
+  "end_time": 1740947275,
+  "rated": true,
+  "accuracies": {
+    "white": 63.2,
+    "black": 71.2
+  },
+  "tcn": "mC0Kgv5QksZRlBKBsB6EBJQKdyYQJQXQcM1TfH!0bqTMvMQHyH0Qac46MS70cQKQSM3VHO0ZnDVMDMZ0O6E6",
+  "uuid": "798c1266-f7a2-11ef-b81c-95e0f101000f",
+  "initial_setup": "",
+  "fen": "2b1kb1r/p3q1p1/2np4/6P1/4P3/N7/PP4PP/4K2R w Kk -",
+  "time_class": "rapid",
+  "rules": "chess",
+  "white": {
+    "rating": 354,
+    "result": "resigned",
+    "@id": "https://api.chess.com/pub/player/madmiszi",
+    "username": "MadMiszi",
+    "uuid": "4d300cf0-db59-11ef-b023-ddf977abefcd"
+  },
+  "black": {
+    "rating": 361,
+    "result": "win",
+    "@id": "https://api.chess.com/pub/player/pawelkozy",
+    "username": "pawelkozy",
+    "uuid": "2f9b53fa-efd3-11ef-9d06-b7757a14ff61"
+  },
+  "eco": "https://www.chess.com/openings/Ponziani-Opening-3...d6-4.d4"
+}
