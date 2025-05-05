@@ -1,3 +1,4 @@
+
 # ♟️ Chess Analyzer
 
 An advanced Python application for downloading and analyzing your own [Chess.com](https://www.chess.com/) games.
@@ -11,7 +12,11 @@ An advanced Python application for downloading and analyzing your own [Chess.com
   - Detect where you hesitate most
   - Understand complexity of those positions
   - Get contextual insights like material balance, check status, legal move count  
-- 🔜 (coming soon): Blunder/inaccuracy detection using Stockfish
+- ✅ Blunder/inaccuracy detection using Stockfish
+- ✅ Total time spent playing (based on clock comments)
+- ✅ Regression analysis:
+  - Blunders and eval drops grouped by date or week
+  - Useful for tracking your improvement
 
 ---
 
@@ -33,7 +38,7 @@ An advanced Python application for downloading and analyzing your own [Chess.com
 ```
 chess_analyzer/
 ├── api/                # Chess.com API client
-├── analyzer/           # GameAnalyzer: time use, position complexity
+├── analyzer/           # GameAnalyzer: time use, eval drops, regression
 ├── downloader/         # Saves PGNs and JSONs
 ├── utils/              # Reusable decorators
 ├── config.py           # Username, base URL, storage path
@@ -77,30 +82,35 @@ games/
 
 ---
 
-## 🧠 Time-Use Analysis
+## 🧠 Analysis Modules
 
-After download, the analyzer shows:
+### ⏱ Time-Use Analysis
+- Shows positions where you spent the most time
+- Context: material imbalance, check status, legal moves
 
-- Top N positions where you spent the most time  
-- Whether you were in check  
-- Number of legal moves  
-- Material imbalance  
-- Endgame flag  
+### ❌ Blunder Detection
+- Uses Stockfish to find moves with large eval drops
+- Shows SAN + human-readable move description
+- Ignores forced mates and caps extreme evals
 
-**Example:**
+### 📊 Regression Analysis
+- Tracks improvement over time
+- Daily/weekly summaries of:
+  - Games played
+  - Blunders
+  - Average eval drop per mistake
 
-```
-1. ⏱ 16.0s on move 35 (Black played ...Kc7)
-   📁 From game: 2025-03-31_22-11-45_157.pgn
-   📍 FEN: 8/5b1p/1k1p1bp1/2p2P2/1PP5/3P4/2K4P/2B5 b - - 0 35
-```
+### ⏳ Total Time Played
+- Parses clock annotations to estimate total time spent
 
 ---
 
 ## ✅ Roadmap
 
 - [x] Time-use analysis  
-- [ ] Blunder/inaccuracy detection using Stockfish  
+- [x] Blunder/inaccuracy detection using Stockfish  
+- [x] Regression analysis (daily/weekly)  
+- [x] Total time estimation  
 - [ ] Opening mistake patterns  
 - [ ] Save top positions to JSON  
 - [ ] Add visual board diagrams (optional)  
