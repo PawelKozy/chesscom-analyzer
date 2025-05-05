@@ -4,9 +4,18 @@ from api.client import ChessAPIClient
 from downloader.game_downloader import GameDownloader
 from analyzer.analyzer import GameAnalyzer
 import config
+import argparse
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Chess.com Game Downloader & Analyzer")
+    parser.add_argument("--all", action="store_true", help="Fetch all available archives instead of just the latest")
+    return parser.parse_args()
+
 
 def main():
     from config import BASE_URL, USERNAME, STORAGE_PATH
+    args = parse_args()
+
 
     api_client = ChessAPIClient(BASE_URL, USERNAME)
     downloader = GameDownloader(STORAGE_PATH)
@@ -14,15 +23,14 @@ def main():
 
     # Get archives
     archives = api_client.get_available_game_months()
+    archives_to_fetch = archives if args.all else [archives[-1]] if archives else []
+
     print(f"Found {len(archives)} archives.")
 
-    # Example: fetch the latest month's games
-    if archives:
-        last_archive = archives[-1]
-        year, month = map(int, last_archive.rsplit('/', 2)[-2:])
+    for archive_url in archives_to_fetch:
+        year, month = map(int, archive_url.rsplit('/', 2)[-2:])
         games = api_client.get_games_for_month(year, month)
         downloader.save_games(games, year, month)
-        print(f"Fetched {len(games)} games for {year}-{month:02d}.")
 
     analysis_folder = os.path.join(STORAGE_PATH, "2025-03")
     engine_path = "C:/Program Files/Stockfish/stockfish-windows-x86-64-avx2.exe"
