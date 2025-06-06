@@ -1,0 +1,13 @@
+# Exclude game data
+/games/
+
+# Ignore Python bytecode
+__pycache__/
+
+# Ignore virtual environment folders
+venv/
+.env/
+ENV/
+env/
+.venv/
+
