@@ -23,11 +23,11 @@ An advanced Python application for downloading and analyzing your own [Chess.com
 ## 🛠 Requirements
 
 - Python 3.9+
-- Install dependencies:
+- Install dependencies listed in `requirements.txt` (e.g. `requests`, `python-chess`):
 
-  ```bash
-  pip install -r requirements.txt
-  ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 - Optional: [Stockfish](https://stockfishchess.org/download/) for deeper analysis
 
