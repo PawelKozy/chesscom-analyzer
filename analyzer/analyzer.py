@@ -3,8 +3,11 @@ import chess
 import re
 import chess.pgn
 import chess.engine
+import logging
 from typing import List
 from collections import defaultdict, Counter
+
+logger = logging.getLogger(__name__)
 
 
 class GameAnalyzer:
@@ -24,7 +27,7 @@ class GameAnalyzer:
         Finds positions where the player spent the most time (based on %clk comments).
         Prints top N most time-consuming decisions with contextual info.
         """
-        print("\n🕒 Finding time-consuming positions...")
+        logger.info("\n🕒 Finding time-consuming positions...")
 
         time_spent = []
         files = self._load_pgn_files()
@@ -33,13 +36,13 @@ class GameAnalyzer:
 
         for i, file in enumerate(files, start=1):
             if verbose:
-                print(f"🔄 Analyzing game {i}/{len(files)}: {os.path.basename(file)}")
+                logger.info(f"🔄 Analyzing game {i}/{len(files)}: {os.path.basename(file)}")
 
             with open(file, encoding="utf-8") as f:
                 game = chess.pgn.read_game(f)
 
             if not game:
-                print(f"⚠️ Skipping invalid PGN file: {file}")
+                logger.warning(f"⚠️ Skipping invalid PGN file: {file}")
                 continue
 
             node = game
@@ -95,42 +98,42 @@ class GameAnalyzer:
 
                             previous_time = current_time
                     except Exception as e:
-                        print(f"⚠️ Error parsing clock: {e}")
+                        logger.warning(f"⚠️ Error parsing clock: {e}")
 
                 node = move
                 move_counter += 1
 
         if not time_spent:
-            print("⚠️ No %clk comments found in the selected games.")
+            logger.warning("⚠️ No %clk comments found in the selected games.")
             return
 
         top_positions = sorted(time_spent, key=lambda x: x["seconds_spent"], reverse=True)[:top_n]
-        print("\n📊 Hesitation Pattern Insights:")
+        logger.info("\n📊 Hesitation Pattern Insights:")
         total = len(time_spent)
 
         simple_positions = sum(1 for x in time_spent if x["legal_moves"] <= 10)
         in_check_count = sum(1 for x in time_spent if x["in_check"])
         endgame_count = sum(1 for x in time_spent if x["is_endgame"])
 
-        print(f"• Positions analyzed: {total}")
-        print(
+        logger.info(f"• Positions analyzed: {total}")
+        logger.info(
             f"• Spent time in low-complexity positions (<=10 legal moves): {simple_positions} ({simple_positions / total:.1%})")
-        print(f"• Spent time while in check: {in_check_count} ({in_check_count / total:.1%})")
-        print(f"• Spent time in endgames: {endgame_count} ({endgame_count / total:.1%})")
+        logger.info(f"• Spent time while in check: {in_check_count} ({in_check_count / total:.1%})")
+        logger.info(f"• Spent time in endgames: {endgame_count} ({endgame_count / total:.1%})")
 
-        print(f"\n🎯 Top {top_n} most time-consuming positions:")
+        logger.info(f"\n🎯 Top {top_n} most time-consuming positions:")
         for i, pos in enumerate(top_positions, 1):
-            print(
+            logger.info(
                 f"{i}. ⏱ {pos['seconds_spent']:.1f}s on move {pos['move_number']} ({pos['player']} played {pos['move_san']})")
-            print(f"   📁 From game: {pos['file']}")
-            print(f"   📍 FEN: {pos['fen']}")
-            print("-" * 60)
+            logger.info(f"   📁 From game: {pos['file']}")
+            logger.info(f"   📍 FEN: {pos['fen']}")
+            logger.info("-" * 60)
 
     def find_common_mistakes(self, limit_eval_drop: float = 1.5, max_games: int = None, verbose: bool = False):
         """
         Identifies blunders/inaccuracies with Stockfish and displays human-readable descriptions and eval interpretation.
         """
-        print("\n❌ Common blunders or inaccuracies:")
+        logger.info("\n❌ Common blunders or inaccuracies:")
 
         all_mistakes = []
         mistake_moves = Counter()
@@ -162,7 +165,7 @@ class GameAnalyzer:
 
         for i, file in enumerate(files, 1):
             if verbose:
-                print(f"🔍 Evaluating game {i}/{len(files)}: {os.path.basename(file)}")
+                logger.info(f"🔍 Evaluating game {i}/{len(files)}: {os.path.basename(file)}")
 
             with open(file, encoding="utf-8") as f:
                 game = chess.pgn.read_game(f)
@@ -231,29 +234,29 @@ class GameAnalyzer:
                 node = move
 
         if not all_mistakes:
-            print("✅ No major mistakes detected.")
+            logger.info("✅ No major mistakes detected.")
             return
 
         top_blunders = sorted(all_mistakes, key=lambda x: x["eval_drop"], reverse=True)[:5]
 
-        print("\n🔻 Top evaluation drops:")
+        logger.info("\n🔻 Top evaluation drops:")
         for i, m in enumerate(top_blunders, 1):
-            print(f"{i}. {m['move_san']} → {m['description']}")
-            print(
+            logger.info(f"{i}. {m['move_san']} → {m['description']}")
+            logger.info(
                 f"   Eval dropped from {format_eval(m['eval_before'])} to {format_eval(m['eval_after'])} (Δ -{m['eval_drop']:.1f})")
-            print(f"   📁 Game: {m['file']} | {m['white']} ({m['white_elo']}) vs {m['black']} ({m['black_elo']})")
-            print(f"   📍 FEN: {m['fen']}")
-            print("-" * 60)
+            logger.info(f"   📁 Game: {m['file']} | {m['white']} ({m['white_elo']}) vs {m['black']} ({m['black_elo']})")
+            logger.info(f"   📍 FEN: {m['fen']}")
+            logger.info("-" * 60)
 
-        print("\n♻️ Most frequently repeated mistakes (by move SAN):")
+        logger.info("\n♻️ Most frequently repeated mistakes (by move SAN):")
         for move, count in mistake_moves.most_common(5):
-            print(f"• {move} → {count} times")
+            logger.info(f"• {move} → {count} times")
 
     def analyze_opening_issues(self, move_limit: int = 10):
         """
         Extracts the most common problematic positions in the opening.
         """
-        print("\n♟️ Opening issues:")
+        logger.info("\n♟️ Opening issues:")
         issues = Counter()
 
         for file in self._load_pgn_files():
@@ -282,13 +285,13 @@ class GameAnalyzer:
                 node = move
 
         for i, (fen, count) in enumerate(issues.most_common(5), 1):
-            print(f"{i}. Eval drop in opening ({count} times): {fen}")
+            logger.info(f"{i}. Eval drop in opening ({count} times): {fen}")
 
     def summarize_total_time_played(self, max_games: int = None):
         """
         Sums total time (in minutes) spent playing games based on clock comments.
         """
-        print("\n⏳ Total Time Spent Playing:")
+        logger.info("\n⏳ Total Time Spent Playing:")
         import re
 
         files = self._load_pgn_files()
@@ -318,14 +321,14 @@ class GameAnalyzer:
         total_minutes = total_seconds // 60
         hours = total_minutes // 60
         minutes = total_minutes % 60
-        print(f"🕰 Estimated total clocked time: {hours}h {minutes}m")
+        logger.info(f"🕰 Estimated total clocked time: {hours}h {minutes}m")
 
     def analyze_progress_over_time(self, limit_eval_drop: float = 1.5, max_games: int = None):
         """
         Analyzes progress over time, grouping by game date.
         Skips illegal moves and filters mate evals. Normalizes evals to pawns.
         """
-        print("\n📊 Regression Analysis: Progress Over Time")
+        logger.info("\n📊 Regression Analysis: Progress Over Time")
         from collections import defaultdict
         import datetime
 
@@ -376,7 +379,7 @@ class GameAnalyzer:
                 if move.move in board.legal_moves:
                     board.push(move.move)
                 else:
-                    print(f"⚠️ Skipping illegal move {move.move} in {file}")
+                    logger.warning(f"⚠️ Skipping illegal move {move.move} in {file}")
                     break
 
                 try:
@@ -401,18 +404,18 @@ class GameAnalyzer:
             daily_stats[date_obj]["total_eval_drop"] += game_eval_drop
 
         if not daily_stats:
-            print("⚠️ No games with valid date headers or no mistakes found.")
+            logger.warning("⚠️ No games with valid date headers or no mistakes found.")
             return
 
-        print("\n📅 Daily Summary:")
+        logger.info("\n📅 Daily Summary:")
         for day in sorted(daily_stats.keys()):
             stats = daily_stats[day]
             games = stats["games"]
             blunders = stats["blunders"]
             avg_drop = (stats["total_eval_drop"] / max(blunders, 1)) / 100
-            print(f"{day}: {games} game(s), {blunders} blunder(s), avg eval drop: {avg_drop:.2f} pawns")
+            logger.info(f"{day}: {games} game(s), {blunders} blunder(s), avg eval drop: {avg_drop:.2f} pawns")
 
-        print("\n✅ Use this to see if you're improving day by day.")
+        logger.info("\n✅ Use this to see if you're improving day by day.")
 
     def close(self):
         self.engine.quit()

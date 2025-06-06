@@ -1,8 +1,11 @@
 import os
 import json
+import logging
 from typing import List, Dict
 from datetime import datetime
 from collections import Counter
+
+logger = logging.getLogger(__name__)
 
 
 class GameDownloader:
@@ -50,7 +53,7 @@ class GameDownloader:
 
             # Deduplication check
             if self._file_exists(folder_path, json_filename):
-                print(f"⚠️ Skipping duplicate: {json_filename}")
+                logger.warning(f"⚠️ Skipping duplicate: {json_filename}")
                 continue
 
             # Save JSON
@@ -82,5 +85,5 @@ class GameDownloader:
         with open(summary_path, "w", encoding="utf-8") as f_summary:
             json.dump(stats, f_summary, indent=2)
 
-        print(f"✅ Saved {stats['total_games']} new games to {folder_path}")
-        print(f"📄 Summary written to summary.json")
+        logger.info(f"✅ Saved {stats['total_games']} new games to {folder_path}")
+        logger.info("📄 Summary written to summary.json")

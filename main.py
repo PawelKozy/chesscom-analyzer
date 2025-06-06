@@ -1,10 +1,14 @@
 # Entry point to run the app
 import os
+import logging
 from api.client import ChessAPIClient
 from downloader.game_downloader import GameDownloader
 from analyzer.analyzer import GameAnalyzer
 import config
 import argparse
+
+logging.basicConfig(level=logging.INFO, format='[%(levelname)s] %(message)s')
+logger = logging.getLogger(__name__)
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Chess.com Game Downloader & Analyzer")
@@ -24,7 +28,7 @@ def main():
     archives = api_client.get_available_game_months()
     archives_to_fetch = archives if args.all else [archives[-1]] if archives else []
 
-    print(f"Found {len(archives)} archives.")
+    logger.info(f"Found {len(archives)} archives.")
 
     for archive_url in archives_to_fetch:
         year, month = map(int, archive_url.rsplit('/', 2)[-2:])

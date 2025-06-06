@@ -2,6 +2,9 @@
 
 import functools
 import time
+import logging
+
+logger = logging.getLogger(__name__)
 
 def retry(times: int = 3, delay: float = 1.0):
     """
@@ -27,8 +30,8 @@ def log_execution(func):
     """
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
-        print(f"[LOG] Calling {func.__name__}")
+        logger.info(f"Calling {func.__name__}")
         result = func(*args, **kwargs)
-        print(f"[LOG] Finished {func.__name__}")
+        logger.info(f"Finished {func.__name__}")
         return result
     return wrapper
